@@ -1,0 +1,32 @@
+[0.355s] Invoking command in '/home/sukru/Desktop/otonom_atis/build/python_pkg': PYTHONPATH=/home/sukru/Desktop/otonom_atis/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sukru/Desktop/otonom_atis/build/python_pkg/build
+[0.502s] running develop
+[0.595s] Removing /home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages/python-pkg.egg-link (link to .)
+[0.609s] Invoked command in '/home/sukru/Desktop/otonom_atis/build/python_pkg' returned '0': PYTHONPATH=/home/sukru/Desktop/otonom_atis/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sukru/Desktop/otonom_atis/build/python_pkg/build
+[0.610s] Invoking command in '/home/sukru/Desktop/otonom_atis/src/python_pkg': PYTHONPATH=/home/sukru/Desktop/otonom_atis/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/sukru/Desktop/otonom_atis/build/python_pkg/build install --record /home/sukru/Desktop/otonom_atis/build/python_pkg/install.log --single-version-externally-managed install_data --force
+[0.747s] running egg_info
+[0.747s] writing ../../build/python_pkg/python_pkg.egg-info/PKG-INFO
+[0.747s] writing dependency_links to ../../build/python_pkg/python_pkg.egg-info/dependency_links.txt
+[0.747s] writing entry points to ../../build/python_pkg/python_pkg.egg-info/entry_points.txt
+[0.747s] writing requirements to ../../build/python_pkg/python_pkg.egg-info/requires.txt
+[0.747s] writing top-level names to ../../build/python_pkg/python_pkg.egg-info/top_level.txt
+[0.748s] reading manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[0.749s] writing manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[0.749s] running build
+[0.749s] running build_py
+[0.749s] copying python_pkg/atisl_kontrol_sistemi_node.py -> /home/sukru/Desktop/otonom_atis/build/python_pkg/build/lib/python_pkg
+[0.749s] running install
+[0.749s] running install_lib
+[0.750s] creating /home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages/python_pkg
+[0.750s] copying /home/sukru/Desktop/otonom_atis/build/python_pkg/build/lib/python_pkg/__init__.py -> /home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages/python_pkg
+[0.750s] copying /home/sukru/Desktop/otonom_atis/build/python_pkg/build/lib/python_pkg/atisl_kontrol_sistemi_node.py -> /home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages/python_pkg
+[0.750s] byte-compiling /home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages/python_pkg/__init__.py to __init__.cpython-310.pyc
+[0.750s] byte-compiling /home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages/python_pkg/atisl_kontrol_sistemi_node.py to atisl_kontrol_sistemi_node.cpython-310.pyc
+[0.751s] running install_data
+[0.751s] copying resource/python_pkg -> /home/sukru/Desktop/otonom_atis/install/python_pkg/share/ament_index/resource_index/packages
+[0.751s] copying package.xml -> /home/sukru/Desktop/otonom_atis/install/python_pkg/share/python_pkg
+[0.751s] running install_egg_info
+[0.752s] Copying ../../build/python_pkg/python_pkg.egg-info to /home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info
+[0.753s] running install_scripts
+[0.767s] Installing atisl_kontrol_sistemi_node script to /home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python_pkg
+[0.767s] writing list of installed files to '/home/sukru/Desktop/otonom_atis/build/python_pkg/install.log'
+[0.779s] Invoked command in '/home/sukru/Desktop/otonom_atis/src/python_pkg' returned '0': PYTHONPATH=/home/sukru/Desktop/otonom_atis/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/sukru/Desktop/otonom_atis/build/python_pkg/build install --record /home/sukru/Desktop/otonom_atis/build/python_pkg/install.log --single-version-externally-managed install_data --force

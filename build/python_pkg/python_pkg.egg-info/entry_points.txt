@@ -1,0 +1,3 @@
+[console_scripts]
+atisl_kontrol_sistemi_node = python_pkg.atisl_kontrol_sistemi_node:main
+
