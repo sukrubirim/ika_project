@@ -1,0 +1,15 @@
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ament_index/resource_index/package_run_dependencies/ika_interfaces
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ament_index/resource_index/parent_prefix_path/ika_interfaces
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/environment/ament_prefix_path.sh
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/environment/ament_prefix_path.dsv
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/environment/path.sh
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/environment/path.dsv
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/local_setup.bash
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/local_setup.sh
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/local_setup.zsh
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/local_setup.dsv
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/package.dsv
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ament_index/resource_index/packages/ika_interfaces
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/cmake/ika_interfacesConfig.cmake
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/cmake/ika_interfacesConfig-version.cmake
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_interfaces/share/ika_interfaces/package.xml

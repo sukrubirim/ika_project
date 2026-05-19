@@ -1,0 +1,23 @@
+[1.890s] Invoking command in '/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_navigation': PYTHONPATH=/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_navigation/build --no-deps symlink_data
+[2.182s] running develop
+[2.333s] running egg_info
+[2.334s] creating ika_navigation.egg-info
+[2.334s] writing ika_navigation.egg-info/PKG-INFO
+[2.334s] writing dependency_links to ika_navigation.egg-info/dependency_links.txt
+[2.334s] writing entry points to ika_navigation.egg-info/entry_points.txt
+[2.334s] writing requirements to ika_navigation.egg-info/requires.txt
+[2.334s] writing top-level names to ika_navigation.egg-info/top_level.txt
+[2.334s] writing manifest file 'ika_navigation.egg-info/SOURCES.txt'
+[2.336s] reading manifest file 'ika_navigation.egg-info/SOURCES.txt'
+[2.336s] writing manifest file 'ika_navigation.egg-info/SOURCES.txt'
+[2.339s] running build_ext
+[2.340s] Creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_navigation/lib/python3.10/site-packages/ika-navigation.egg-link (link to .)
+[2.340s] 
+[2.340s] Installed /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_navigation
+[2.340s] running symlink_data
+[2.340s] creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_navigation/share/ament_index
+[2.340s] creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_navigation/share/ament_index/resource_index
+[2.340s] creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_navigation/share/ament_index/resource_index/packages
+[2.340s] symbolically linking /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_navigation/resource/ika_navigation -> /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_navigation/share/ament_index/resource_index/packages
+[2.340s] symbolically linking /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_navigation/package.xml -> /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_navigation/share/ika_navigation
+[2.432s] Invoked command in '/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_navigation' returned '0': PYTHONPATH=/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_navigation/build --no-deps symlink_data

@@ -1,0 +1,23 @@
+[1.759s] Invoking command in '/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_hardware': PYTHONPATH=/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_hardware/build --no-deps symlink_data
+[2.034s] running develop
+[2.228s] running egg_info
+[2.229s] creating ika_hardware.egg-info
+[2.232s] writing ika_hardware.egg-info/PKG-INFO
+[2.232s] writing dependency_links to ika_hardware.egg-info/dependency_links.txt
+[2.232s] writing entry points to ika_hardware.egg-info/entry_points.txt
+[2.232s] writing requirements to ika_hardware.egg-info/requires.txt
+[2.232s] writing top-level names to ika_hardware.egg-info/top_level.txt
+[2.232s] writing manifest file 'ika_hardware.egg-info/SOURCES.txt'
+[2.232s] reading manifest file 'ika_hardware.egg-info/SOURCES.txt'
+[2.237s] writing manifest file 'ika_hardware.egg-info/SOURCES.txt'
+[2.237s] running build_ext
+[2.238s] Creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_hardware/lib/python3.10/site-packages/ika-hardware.egg-link (link to .)
+[2.239s] 
+[2.239s] Installed /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_hardware
+[2.239s] running symlink_data
+[2.239s] creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_hardware/share/ament_index
+[2.239s] creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_hardware/share/ament_index/resource_index
+[2.239s] creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_hardware/share/ament_index/resource_index/packages
+[2.239s] symbolically linking /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_hardware/resource/ika_hardware -> /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_hardware/share/ament_index/resource_index/packages
+[2.243s] symbolically linking /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_hardware/package.xml -> /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_hardware/share/ika_hardware
+[2.387s] Invoked command in '/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_hardware' returned '0': PYTHONPATH=/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_hardware/build --no-deps symlink_data

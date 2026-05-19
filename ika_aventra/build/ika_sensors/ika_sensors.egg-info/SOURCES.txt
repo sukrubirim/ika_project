@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+ika_sensors/__init__.py
+ika_sensors.egg-info/PKG-INFO
+ika_sensors.egg-info/SOURCES.txt
+ika_sensors.egg-info/dependency_links.txt
+ika_sensors.egg-info/entry_points.txt
+ika_sensors.egg-info/requires.txt
+ika_sensors.egg-info/top_level.txt
+ika_sensors.egg-info/zip-safe
+resource/ika_sensors

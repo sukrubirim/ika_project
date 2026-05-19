@@ -1,0 +1,23 @@
+[0.921s] Invoking command in '/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_teleop': PYTHONPATH=/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_teleop/build --no-deps symlink_data
+[1.135s] running develop
+[1.257s] running egg_info
+[1.257s] creating ika_teleop.egg-info
+[1.257s] writing ika_teleop.egg-info/PKG-INFO
+[1.258s] writing dependency_links to ika_teleop.egg-info/dependency_links.txt
+[1.258s] writing entry points to ika_teleop.egg-info/entry_points.txt
+[1.258s] writing requirements to ika_teleop.egg-info/requires.txt
+[1.258s] writing top-level names to ika_teleop.egg-info/top_level.txt
+[1.259s] writing manifest file 'ika_teleop.egg-info/SOURCES.txt'
+[1.260s] reading manifest file 'ika_teleop.egg-info/SOURCES.txt'
+[1.260s] writing manifest file 'ika_teleop.egg-info/SOURCES.txt'
+[1.260s] running build_ext
+[1.260s] Creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_teleop/lib/python3.10/site-packages/ika-teleop.egg-link (link to .)
+[1.261s] 
+[1.261s] Installed /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_teleop
+[1.261s] running symlink_data
+[1.261s] creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_teleop/share/ament_index
+[1.262s] creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_teleop/share/ament_index/resource_index
+[1.262s] creating /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_teleop/share/ament_index/resource_index/packages
+[1.262s] symbolically linking /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_teleop/resource/ika_teleop -> /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_teleop/share/ament_index/resource_index/packages
+[1.262s] symbolically linking /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_teleop/package.xml -> /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_teleop/share/ika_teleop
+[1.288s] Invoked command in '/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_teleop' returned '0': PYTHONPATH=/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/install/ika_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_teleop/build --no-deps symlink_data

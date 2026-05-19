@@ -1,0 +1,1 @@
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/ament_cmake_core/ika_interfacesConfig.cmake

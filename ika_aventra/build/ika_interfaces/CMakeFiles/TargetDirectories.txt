@@ -1,0 +1,9 @@
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/CMakeFiles/uninstall.dir
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/CMakeFiles/ika_interfaces_uninstall.dir
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/CMakeFiles/test.dir
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/CMakeFiles/edit_cache.dir
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/CMakeFiles/rebuild_cache.dir
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/CMakeFiles/list_install_components.dir
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/CMakeFiles/install.dir
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/CMakeFiles/install/local.dir
+/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/CMakeFiles/install/strip.dir

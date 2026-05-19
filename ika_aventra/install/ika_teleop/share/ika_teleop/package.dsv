@@ -1,0 +1,9 @@
+source;share/ika_teleop/hook/pythonpath.ps1
+source;share/ika_teleop/hook/pythonpath.dsv
+source;share/ika_teleop/hook/pythonpath.sh
+source;share/ika_teleop/hook/ament_prefix_path.ps1
+source;share/ika_teleop/hook/ament_prefix_path.dsv
+source;share/ika_teleop/hook/ament_prefix_path.sh
+source;../../build/ika_teleop/share/ika_teleop/hook/pythonpath_develop.ps1
+source;../../build/ika_teleop/share/ika_teleop/hook/pythonpath_develop.dsv
+source;../../build/ika_teleop/share/ika_teleop/hook/pythonpath_develop.sh
