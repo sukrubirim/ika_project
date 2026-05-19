@@ -1,1 +1,0 @@
-/home/yildiz/IKA_AVENTRA_WORKSPACE/ika_aventra/build/ika_interfaces/ament_cmake_environment_hooks/local_setup.zsh
