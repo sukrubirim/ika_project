@@ -1,0 +1,21 @@
+{
+    "ROS2.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/ahmet/ika_project/install/ika_sensors/lib/python3.10/site-packages",
+        "/home/ahmet/ika_project/install/ika_msgs/local/lib/python3.10/dist-packages",
+        "/home/ahmet/ros2_ws/install/deneme_nodesi2/lib/python3.10/site-packages",
+        "/home/ahmet/ros2_ws/build/deneme_nodesi",
+        "/home/ahmet/ros2_ws/install/deneme_nodesi/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ahmet/ika_project/install/ika_sensors/lib/python3.10/site-packages",
+        "/home/ahmet/ika_project/install/ika_msgs/local/lib/python3.10/dist-packages",
+        "/home/ahmet/ros2_ws/install/deneme_nodesi2/lib/python3.10/site-packages",
+        "/home/ahmet/ros2_ws/build/deneme_nodesi",
+        "/home/ahmet/ros2_ws/install/deneme_nodesi/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

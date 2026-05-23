@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ika_ui_bridge</name>
+  <version>0.1.0</version>
+  <description>UI bridge for IKARobot - WebSocket/REST bridge between ROS2 and external Java UI</description>
+  <maintainer email="you@example.com">IKATeam</maintainer>
+  <license>Apache-2.0</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>websockets</exec_depend>
+  <exec_depend>aiohttp</exec_depend>
+</package>
