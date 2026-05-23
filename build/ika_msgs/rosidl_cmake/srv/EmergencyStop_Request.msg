@@ -1,0 +1,2 @@
+bool stop
+string reason

@@ -1,0 +1,5 @@
+/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/rosidl_adapter/ika_msgs:msg/EnvironmentData.idl
+/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/rosidl_adapter/ika_msgs:msg/MissionState.idl
+/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/rosidl_adapter/ika_msgs:srv/EmergencyStop.idl
+/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/rosidl_adapter/ika_msgs:srv/SetLaser.idl
+/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/rosidl_adapter/ika_msgs:action/AimAndFire.idl

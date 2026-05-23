@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="imu_sensor" params="parent x y z">
+    <link name="imu_link"><visual><geometry><box size="0.05 0.04 0.02"/></geometry><material name="orange"><color rgba="1 0.45 0 1"/></material></visual><collision><geometry><box size="0.05 0.04 0.02"/></geometry></collision><inertial><mass value="0.05"/><inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/></inertial></link>
+    <joint name="imu_joint" type="fixed"><parent link="${parent}"/><child link="imu_link"/><origin xyz="${x} ${y} ${z}" rpy="0 0 0"/></joint>
+    <gazebo reference="imu_link">
+      <sensor name="imu_sensor" type="imu">
+        <update_rate>100</update_rate>
+        <plugin name="imu_controller" filename="libgazebo_ros_imu_sensor.so">
+          <ros><remapping>~/out:=imu/data</remapping></ros>
+          <frame_name>imu_link</frame_name>
+        </plugin>
+      </sensor>
+    </gazebo>
+  </xacro:macro>
+</robot>

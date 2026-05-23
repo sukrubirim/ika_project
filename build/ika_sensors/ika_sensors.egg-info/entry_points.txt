@@ -1,0 +1,5 @@
+[console_scripts]
+laser_range_node = ika_sensors.laser_range_node:main
+pressure_altitude_node = ika_sensors.pressure_altitude_node:main
+temp_humidity_node = ika_sensors.temp_humidity_node:main
+

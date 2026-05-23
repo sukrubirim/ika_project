@@ -1,0 +1,44 @@
+[0.007s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake /home/sukru/ika_teknofest_aventra_ws/src/ika_description -DCMAKE_INSTALL_PREFIX=/home/sukru/ika_teknofest_aventra_ws/install/ika_description
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.240s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.240s] -- Detecting CXX compile features
+[0.241s] -- Detecting CXX compile features - done
+[0.244s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.428s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.490s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.491s] -- Added test 'lint_cmake' to check CMake code style
+[0.492s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.494s] -- Added test 'xmllint' to check XML markup files
+[0.495s] -- Configuring done
+[0.497s] -- Generating done
+[0.498s] -- Build files have been written to: /home/sukru/ika_teknofest_aventra_ws/build/ika_description
+[0.502s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake /home/sukru/ika_teknofest_aventra_ws/src/ika_description -DCMAKE_INSTALL_PREFIX=/home/sukru/ika_teknofest_aventra_ws/install/ika_description
+[0.503s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/sukru/ika_teknofest_aventra_ws/build/ika_description -- -j12 -l12
+[0.528s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/sukru/ika_teknofest_aventra_ws/build/ika_description -- -j12 -l12
+[0.533s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/sukru/ika_teknofest_aventra_ws/build/ika_description
+[0.537s] -- Install configuration: ""
+[0.537s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ament_index/resource_index/package_run_dependencies/ika_description
+[0.537s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ament_index/resource_index/parent_prefix_path/ika_description
+[0.537s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/environment/ament_prefix_path.sh
+[0.537s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/environment/ament_prefix_path.dsv
+[0.537s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/environment/path.sh
+[0.538s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/environment/path.dsv
+[0.538s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/local_setup.bash
+[0.538s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/local_setup.sh
+[0.538s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/local_setup.zsh
+[0.538s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/local_setup.dsv
+[0.538s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/package.dsv
+[0.538s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ament_index/resource_index/packages/ika_description
+[0.538s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/cmake/ika_descriptionConfig.cmake
+[0.538s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/cmake/ika_descriptionConfig-version.cmake
+[0.538s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/package.xml
+[0.540s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/sukru/ika_teknofest_aventra_ws/build/ika_description

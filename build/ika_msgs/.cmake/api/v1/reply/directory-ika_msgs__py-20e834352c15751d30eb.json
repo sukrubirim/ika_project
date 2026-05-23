@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ika_msgs__py",
+		"source" : "/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/ika_msgs__py"
+	}
+}

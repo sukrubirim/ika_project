@@ -1,0 +1,515 @@
+// generated from rosidl_generator_c/resource/idl__functions.c.em
+// with input from ika_msgs:srv/SetLaser.idl
+// generated code does not contain a copyright notice
+#include "ika_msgs/srv/detail/set_laser__functions.h"
+
+#include <assert.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "rcutils/allocator.h"
+
+// Include directives for member types
+// Member `command_source`
+#include "rosidl_runtime_c/string_functions.h"
+
+bool
+ika_msgs__srv__SetLaser_Request__init(ika_msgs__srv__SetLaser_Request * msg)
+{
+  if (!msg) {
+    return false;
+  }
+  // enable
+  // duration_sec
+  // command_source
+  if (!rosidl_runtime_c__String__init(&msg->command_source)) {
+    ika_msgs__srv__SetLaser_Request__fini(msg);
+    return false;
+  }
+  return true;
+}
+
+void
+ika_msgs__srv__SetLaser_Request__fini(ika_msgs__srv__SetLaser_Request * msg)
+{
+  if (!msg) {
+    return;
+  }
+  // enable
+  // duration_sec
+  // command_source
+  rosidl_runtime_c__String__fini(&msg->command_source);
+}
+
+bool
+ika_msgs__srv__SetLaser_Request__are_equal(const ika_msgs__srv__SetLaser_Request * lhs, const ika_msgs__srv__SetLaser_Request * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // enable
+  if (lhs->enable != rhs->enable) {
+    return false;
+  }
+  // duration_sec
+  if (lhs->duration_sec != rhs->duration_sec) {
+    return false;
+  }
+  // command_source
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->command_source), &(rhs->command_source)))
+  {
+    return false;
+  }
+  return true;
+}
+
+bool
+ika_msgs__srv__SetLaser_Request__copy(
+  const ika_msgs__srv__SetLaser_Request * input,
+  ika_msgs__srv__SetLaser_Request * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // enable
+  output->enable = input->enable;
+  // duration_sec
+  output->duration_sec = input->duration_sec;
+  // command_source
+  if (!rosidl_runtime_c__String__copy(
+      &(input->command_source), &(output->command_source)))
+  {
+    return false;
+  }
+  return true;
+}
+
+ika_msgs__srv__SetLaser_Request *
+ika_msgs__srv__SetLaser_Request__create()
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  ika_msgs__srv__SetLaser_Request * msg = (ika_msgs__srv__SetLaser_Request *)allocator.allocate(sizeof(ika_msgs__srv__SetLaser_Request), allocator.state);
+  if (!msg) {
+    return NULL;
+  }
+  memset(msg, 0, sizeof(ika_msgs__srv__SetLaser_Request));
+  bool success = ika_msgs__srv__SetLaser_Request__init(msg);
+  if (!success) {
+    allocator.deallocate(msg, allocator.state);
+    return NULL;
+  }
+  return msg;
+}
+
+void
+ika_msgs__srv__SetLaser_Request__destroy(ika_msgs__srv__SetLaser_Request * msg)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (msg) {
+    ika_msgs__srv__SetLaser_Request__fini(msg);
+  }
+  allocator.deallocate(msg, allocator.state);
+}
+
+
+bool
+ika_msgs__srv__SetLaser_Request__Sequence__init(ika_msgs__srv__SetLaser_Request__Sequence * array, size_t size)
+{
+  if (!array) {
+    return false;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  ika_msgs__srv__SetLaser_Request * data = NULL;
+
+  if (size) {
+    data = (ika_msgs__srv__SetLaser_Request *)allocator.zero_allocate(size, sizeof(ika_msgs__srv__SetLaser_Request), allocator.state);
+    if (!data) {
+      return false;
+    }
+    // initialize all array elements
+    size_t i;
+    for (i = 0; i < size; ++i) {
+      bool success = ika_msgs__srv__SetLaser_Request__init(&data[i]);
+      if (!success) {
+        break;
+      }
+    }
+    if (i < size) {
+      // if initialization failed finalize the already initialized array elements
+      for (; i > 0; --i) {
+        ika_msgs__srv__SetLaser_Request__fini(&data[i - 1]);
+      }
+      allocator.deallocate(data, allocator.state);
+      return false;
+    }
+  }
+  array->data = data;
+  array->size = size;
+  array->capacity = size;
+  return true;
+}
+
+void
+ika_msgs__srv__SetLaser_Request__Sequence__fini(ika_msgs__srv__SetLaser_Request__Sequence * array)
+{
+  if (!array) {
+    return;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+
+  if (array->data) {
+    // ensure that data and capacity values are consistent
+    assert(array->capacity > 0);
+    // finalize all array elements
+    for (size_t i = 0; i < array->capacity; ++i) {
+      ika_msgs__srv__SetLaser_Request__fini(&array->data[i]);
+    }
+    allocator.deallocate(array->data, allocator.state);
+    array->data = NULL;
+    array->size = 0;
+    array->capacity = 0;
+  } else {
+    // ensure that data, size, and capacity values are consistent
+    assert(0 == array->size);
+    assert(0 == array->capacity);
+  }
+}
+
+ika_msgs__srv__SetLaser_Request__Sequence *
+ika_msgs__srv__SetLaser_Request__Sequence__create(size_t size)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  ika_msgs__srv__SetLaser_Request__Sequence * array = (ika_msgs__srv__SetLaser_Request__Sequence *)allocator.allocate(sizeof(ika_msgs__srv__SetLaser_Request__Sequence), allocator.state);
+  if (!array) {
+    return NULL;
+  }
+  bool success = ika_msgs__srv__SetLaser_Request__Sequence__init(array, size);
+  if (!success) {
+    allocator.deallocate(array, allocator.state);
+    return NULL;
+  }
+  return array;
+}
+
+void
+ika_msgs__srv__SetLaser_Request__Sequence__destroy(ika_msgs__srv__SetLaser_Request__Sequence * array)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (array) {
+    ika_msgs__srv__SetLaser_Request__Sequence__fini(array);
+  }
+  allocator.deallocate(array, allocator.state);
+}
+
+bool
+ika_msgs__srv__SetLaser_Request__Sequence__are_equal(const ika_msgs__srv__SetLaser_Request__Sequence * lhs, const ika_msgs__srv__SetLaser_Request__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!ika_msgs__srv__SetLaser_Request__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+ika_msgs__srv__SetLaser_Request__Sequence__copy(
+  const ika_msgs__srv__SetLaser_Request__Sequence * input,
+  ika_msgs__srv__SetLaser_Request__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(ika_msgs__srv__SetLaser_Request);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
+    ika_msgs__srv__SetLaser_Request * data =
+      (ika_msgs__srv__SetLaser_Request *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
+    if (!data) {
+      return false;
+    }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!ika_msgs__srv__SetLaser_Request__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
+        for (; i-- > output->capacity; ) {
+          ika_msgs__srv__SetLaser_Request__fini(&output->data[i]);
+        }
+        return false;
+      }
+    }
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!ika_msgs__srv__SetLaser_Request__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
+}
+
+
+// Include directives for member types
+// Member `message`
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
+bool
+ika_msgs__srv__SetLaser_Response__init(ika_msgs__srv__SetLaser_Response * msg)
+{
+  if (!msg) {
+    return false;
+  }
+  // success
+  // message
+  if (!rosidl_runtime_c__String__init(&msg->message)) {
+    ika_msgs__srv__SetLaser_Response__fini(msg);
+    return false;
+  }
+  return true;
+}
+
+void
+ika_msgs__srv__SetLaser_Response__fini(ika_msgs__srv__SetLaser_Response * msg)
+{
+  if (!msg) {
+    return;
+  }
+  // success
+  // message
+  rosidl_runtime_c__String__fini(&msg->message);
+}
+
+bool
+ika_msgs__srv__SetLaser_Response__are_equal(const ika_msgs__srv__SetLaser_Response * lhs, const ika_msgs__srv__SetLaser_Response * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // success
+  if (lhs->success != rhs->success) {
+    return false;
+  }
+  // message
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->message), &(rhs->message)))
+  {
+    return false;
+  }
+  return true;
+}
+
+bool
+ika_msgs__srv__SetLaser_Response__copy(
+  const ika_msgs__srv__SetLaser_Response * input,
+  ika_msgs__srv__SetLaser_Response * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // success
+  output->success = input->success;
+  // message
+  if (!rosidl_runtime_c__String__copy(
+      &(input->message), &(output->message)))
+  {
+    return false;
+  }
+  return true;
+}
+
+ika_msgs__srv__SetLaser_Response *
+ika_msgs__srv__SetLaser_Response__create()
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  ika_msgs__srv__SetLaser_Response * msg = (ika_msgs__srv__SetLaser_Response *)allocator.allocate(sizeof(ika_msgs__srv__SetLaser_Response), allocator.state);
+  if (!msg) {
+    return NULL;
+  }
+  memset(msg, 0, sizeof(ika_msgs__srv__SetLaser_Response));
+  bool success = ika_msgs__srv__SetLaser_Response__init(msg);
+  if (!success) {
+    allocator.deallocate(msg, allocator.state);
+    return NULL;
+  }
+  return msg;
+}
+
+void
+ika_msgs__srv__SetLaser_Response__destroy(ika_msgs__srv__SetLaser_Response * msg)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (msg) {
+    ika_msgs__srv__SetLaser_Response__fini(msg);
+  }
+  allocator.deallocate(msg, allocator.state);
+}
+
+
+bool
+ika_msgs__srv__SetLaser_Response__Sequence__init(ika_msgs__srv__SetLaser_Response__Sequence * array, size_t size)
+{
+  if (!array) {
+    return false;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  ika_msgs__srv__SetLaser_Response * data = NULL;
+
+  if (size) {
+    data = (ika_msgs__srv__SetLaser_Response *)allocator.zero_allocate(size, sizeof(ika_msgs__srv__SetLaser_Response), allocator.state);
+    if (!data) {
+      return false;
+    }
+    // initialize all array elements
+    size_t i;
+    for (i = 0; i < size; ++i) {
+      bool success = ika_msgs__srv__SetLaser_Response__init(&data[i]);
+      if (!success) {
+        break;
+      }
+    }
+    if (i < size) {
+      // if initialization failed finalize the already initialized array elements
+      for (; i > 0; --i) {
+        ika_msgs__srv__SetLaser_Response__fini(&data[i - 1]);
+      }
+      allocator.deallocate(data, allocator.state);
+      return false;
+    }
+  }
+  array->data = data;
+  array->size = size;
+  array->capacity = size;
+  return true;
+}
+
+void
+ika_msgs__srv__SetLaser_Response__Sequence__fini(ika_msgs__srv__SetLaser_Response__Sequence * array)
+{
+  if (!array) {
+    return;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+
+  if (array->data) {
+    // ensure that data and capacity values are consistent
+    assert(array->capacity > 0);
+    // finalize all array elements
+    for (size_t i = 0; i < array->capacity; ++i) {
+      ika_msgs__srv__SetLaser_Response__fini(&array->data[i]);
+    }
+    allocator.deallocate(array->data, allocator.state);
+    array->data = NULL;
+    array->size = 0;
+    array->capacity = 0;
+  } else {
+    // ensure that data, size, and capacity values are consistent
+    assert(0 == array->size);
+    assert(0 == array->capacity);
+  }
+}
+
+ika_msgs__srv__SetLaser_Response__Sequence *
+ika_msgs__srv__SetLaser_Response__Sequence__create(size_t size)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  ika_msgs__srv__SetLaser_Response__Sequence * array = (ika_msgs__srv__SetLaser_Response__Sequence *)allocator.allocate(sizeof(ika_msgs__srv__SetLaser_Response__Sequence), allocator.state);
+  if (!array) {
+    return NULL;
+  }
+  bool success = ika_msgs__srv__SetLaser_Response__Sequence__init(array, size);
+  if (!success) {
+    allocator.deallocate(array, allocator.state);
+    return NULL;
+  }
+  return array;
+}
+
+void
+ika_msgs__srv__SetLaser_Response__Sequence__destroy(ika_msgs__srv__SetLaser_Response__Sequence * array)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (array) {
+    ika_msgs__srv__SetLaser_Response__Sequence__fini(array);
+  }
+  allocator.deallocate(array, allocator.state);
+}
+
+bool
+ika_msgs__srv__SetLaser_Response__Sequence__are_equal(const ika_msgs__srv__SetLaser_Response__Sequence * lhs, const ika_msgs__srv__SetLaser_Response__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!ika_msgs__srv__SetLaser_Response__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+ika_msgs__srv__SetLaser_Response__Sequence__copy(
+  const ika_msgs__srv__SetLaser_Response__Sequence * input,
+  ika_msgs__srv__SetLaser_Response__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(ika_msgs__srv__SetLaser_Response);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
+    ika_msgs__srv__SetLaser_Response * data =
+      (ika_msgs__srv__SetLaser_Response *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
+    if (!data) {
+      return false;
+    }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!ika_msgs__srv__SetLaser_Response__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
+        for (; i-- > output->capacity; ) {
+          ika_msgs__srv__SetLaser_Response__fini(&output->data[i]);
+        }
+        return false;
+      }
+    }
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!ika_msgs__srv__SetLaser_Response__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
+}

@@ -1,0 +1,10 @@
+{
+  "package_name": "ika_msgs",
+  "non_idl_tuples": [
+    "/home/sukru/ika_teknofest_aventra_ws/src/ika_msgs:msg/EnvironmentData.msg",
+    "/home/sukru/ika_teknofest_aventra_ws/src/ika_msgs:msg/MissionState.msg",
+    "/home/sukru/ika_teknofest_aventra_ws/src/ika_msgs:srv/EmergencyStop.srv",
+    "/home/sukru/ika_teknofest_aventra_ws/src/ika_msgs:srv/SetLaser.srv",
+    "/home/sukru/ika_teknofest_aventra_ws/src/ika_msgs:action/AimAndFire.action"
+  ]
+}

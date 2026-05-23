@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="cylinder_inertial" params="mass radius length">
+    <inertial>
+      <mass value="${mass}"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="${mass*(3*radius*radius+length*length)/12}" ixy="0" ixz="0" iyy="${mass*radius*radius/2}" iyz="0" izz="${mass*(3*radius*radius+length*length)/12}"/>
+    </inertial>
+  </xacro:macro>
+
+  <xacro:macro name="ika_wheel" params="name parent x y z">
+    <link name="${name}_wheel_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="${PI/2} 0 0"/>
+        <geometry><cylinder radius="${wheel_radius}" length="${wheel_width}"/></geometry>
+        <material name="rubber"><color rgba="0.02 0.02 0.02 1"/></material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="${PI/2} 0 0"/>
+        <geometry><cylinder radius="${wheel_radius}" length="${wheel_width}"/></geometry>
+      </collision>
+      <xacro:cylinder_inertial mass="2.0" radius="${wheel_radius}" length="${wheel_width}"/>
+    </link>
+
+    <joint name="${name}_wheel_joint" type="continuous">
+      <parent link="${parent}"/>
+      <child link="${name}_wheel_link"/>
+      <origin xyz="${x} ${y} ${-ground_clearance + z}" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/>
+      <dynamics damping="0.2" friction="0.1"/>
+    </joint>
+
+    <gazebo reference="${name}_wheel_link">
+      <material>Gazebo/Black</material>
+      <mu1>1.4</mu1>
+      <mu2>1.4</mu2>
+      <kp>1000000</kp>
+      <kd>1</kd>
+    </gazebo>
+  </xacro:macro>
+</robot>

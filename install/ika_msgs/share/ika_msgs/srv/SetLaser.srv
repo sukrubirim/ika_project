@@ -1,0 +1,6 @@
+bool enable
+float32 duration_sec
+string command_source
+---
+bool success
+string message
