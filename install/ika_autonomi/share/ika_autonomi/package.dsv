@@ -1,0 +1,6 @@
+source;share/ika_autonomi/hook/pythonpath.ps1
+source;share/ika_autonomi/hook/pythonpath.dsv
+source;share/ika_autonomi/hook/pythonpath.sh
+source;share/ika_autonomi/hook/ament_prefix_path.ps1
+source;share/ika_autonomi/hook/ament_prefix_path.dsv
+source;share/ika_autonomi/hook/ament_prefix_path.sh

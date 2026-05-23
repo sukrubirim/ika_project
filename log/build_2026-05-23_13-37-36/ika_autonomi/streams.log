@@ -1,0 +1,43 @@
+[0.517s] Invoking command in '/home/sukru/ai_autonomi_ws/src/ika_autonomi': PYTHONPATH=/home/sukru/ai_autonomi_ws/build/ika_autonomi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_autonomi build --build-base /home/sukru/ai_autonomi_ws/build/ika_autonomi/build install --record /home/sukru/ai_autonomi_ws/build/ika_autonomi/install.log --single-version-externally-managed install_data
+[0.670s] running egg_info
+[0.670s] creating ../../build/ika_autonomi/ika_autonomi.egg-info
+[0.670s] writing ../../build/ika_autonomi/ika_autonomi.egg-info/PKG-INFO
+[0.670s] writing dependency_links to ../../build/ika_autonomi/ika_autonomi.egg-info/dependency_links.txt
+[0.670s] writing entry points to ../../build/ika_autonomi/ika_autonomi.egg-info/entry_points.txt
+[0.670s] writing requirements to ../../build/ika_autonomi/ika_autonomi.egg-info/requires.txt
+[0.670s] writing top-level names to ../../build/ika_autonomi/ika_autonomi.egg-info/top_level.txt
+[0.670s] writing manifest file '../../build/ika_autonomi/ika_autonomi.egg-info/SOURCES.txt'
+[0.671s] reading manifest file '../../build/ika_autonomi/ika_autonomi.egg-info/SOURCES.txt'
+[0.671s] writing manifest file '../../build/ika_autonomi/ika_autonomi.egg-info/SOURCES.txt'
+[0.672s] running build
+[0.672s] running build_py
+[0.672s] creating /home/sukru/ai_autonomi_ws/build/ika_autonomi/build
+[0.672s] creating /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib
+[0.672s] creating /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi
+[0.672s] copying ika_autonomi/__init__.py -> /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi
+[0.672s] copying ika_autonomi/motor_controller.py -> /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi
+[0.672s] copying ika_autonomi/mission_manager.py -> /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi
+[0.672s] running install
+[0.672s] running install_lib
+[0.672s] creating /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi
+[0.673s] copying /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi/__init__.py -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi
+[0.673s] copying /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi/motor_controller.py -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi
+[0.673s] copying /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi/mission_manager.py -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi
+[0.673s] byte-compiling /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi/__init__.py to __init__.cpython-310.pyc
+[0.673s] byte-compiling /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi/motor_controller.py to motor_controller.cpython-310.pyc
+[0.673s] byte-compiling /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi/mission_manager.py to mission_manager.cpython-310.pyc
+[0.674s] running install_data
+[0.674s] creating /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ament_index
+[0.674s] creating /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ament_index/resource_index
+[0.674s] creating /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ament_index/resource_index/packages
+[0.674s] copying resource/ika_autonomi -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ament_index/resource_index/packages
+[0.674s] copying package.xml -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ika_autonomi
+[0.674s] creating /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ika_autonomi/launch
+[0.674s] copying launch/robot_launch.py -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ika_autonomi/launch
+[0.674s] running install_egg_info
+[0.675s] Copying ../../build/ika_autonomi/ika_autonomi.egg-info to /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi-0.0.0-py3.10.egg-info
+[0.675s] running install_scripts
+[0.687s] Installing mission_manager script to /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/ika_autonomi
+[0.687s] Installing motor_controller script to /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/ika_autonomi
+[0.687s] writing list of installed files to '/home/sukru/ai_autonomi_ws/build/ika_autonomi/install.log'
+[0.699s] Invoked command in '/home/sukru/ai_autonomi_ws/src/ika_autonomi' returned '0': PYTHONPATH=/home/sukru/ai_autonomi_ws/build/ika_autonomi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_autonomi build --build-base /home/sukru/ai_autonomi_ws/build/ika_autonomi/build install --record /home/sukru/ai_autonomi_ws/build/ika_autonomi/install.log --single-version-externally-managed install_data

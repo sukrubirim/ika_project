@@ -1,0 +1,4 @@
+[console_scripts]
+mission_manager = ika_autonomi.mission_manager:main
+motor_controller = ika_autonomi.motor_controller:main
+

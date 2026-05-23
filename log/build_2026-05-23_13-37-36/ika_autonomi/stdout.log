@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/ika_autonomi/ika_autonomi.egg-info
+writing ../../build/ika_autonomi/ika_autonomi.egg-info/PKG-INFO
+writing dependency_links to ../../build/ika_autonomi/ika_autonomi.egg-info/dependency_links.txt
+writing entry points to ../../build/ika_autonomi/ika_autonomi.egg-info/entry_points.txt
+writing requirements to ../../build/ika_autonomi/ika_autonomi.egg-info/requires.txt
+writing top-level names to ../../build/ika_autonomi/ika_autonomi.egg-info/top_level.txt
+writing manifest file '../../build/ika_autonomi/ika_autonomi.egg-info/SOURCES.txt'
+reading manifest file '../../build/ika_autonomi/ika_autonomi.egg-info/SOURCES.txt'
+writing manifest file '../../build/ika_autonomi/ika_autonomi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sukru/ai_autonomi_ws/build/ika_autonomi/build
+creating /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib
+creating /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi
+copying ika_autonomi/__init__.py -> /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi
+copying ika_autonomi/motor_controller.py -> /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi
+copying ika_autonomi/mission_manager.py -> /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi
+running install
+running install_lib
+creating /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi
+copying /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi/__init__.py -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi
+copying /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi/motor_controller.py -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi
+copying /home/sukru/ai_autonomi_ws/build/ika_autonomi/build/lib/ika_autonomi/mission_manager.py -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi
+byte-compiling /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi/motor_controller.py to motor_controller.cpython-310.pyc
+byte-compiling /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi/mission_manager.py to mission_manager.cpython-310.pyc
+running install_data
+creating /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ament_index
+creating /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ament_index/resource_index
+creating /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ament_index/resource_index/packages
+copying resource/ika_autonomi -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ament_index/resource_index/packages
+copying package.xml -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ika_autonomi
+creating /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ika_autonomi/launch
+copying launch/robot_launch.py -> /home/sukru/ai_autonomi_ws/install/ika_autonomi/share/ika_autonomi/launch
+running install_egg_info
+Copying ../../build/ika_autonomi/ika_autonomi.egg-info to /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages/ika_autonomi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mission_manager script to /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/ika_autonomi
+Installing motor_controller script to /home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/ika_autonomi
+writing list of installed files to '/home/sukru/ai_autonomi_ws/build/ika_autonomi/install.log'
