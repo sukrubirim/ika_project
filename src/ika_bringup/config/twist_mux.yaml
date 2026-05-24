@@ -1,0 +1,13 @@
+# TEKNOFEST UPDATE: ornek projedeki twist_mux kabiliyeti eklendi.
+# /cmd_vel_nav ve /cmd_vel_joy kaynaklarini tek /cmd_vel cikisina toplar.
+twist_mux:
+  ros__parameters:
+    topics:
+      navigation:
+        topic: /cmd_vel_nav
+        timeout: 0.5
+        priority: 10
+      joystick:
+        topic: /cmd_vel_joy
+        timeout: 0.5
+        priority: 100

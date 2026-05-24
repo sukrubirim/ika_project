@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating ika_control.egg-info
+writing ika_control.egg-info/PKG-INFO
+writing dependency_links to ika_control.egg-info/dependency_links.txt
+writing entry points to ika_control.egg-info/entry_points.txt
+writing requirements to ika_control.egg-info/requires.txt
+writing top-level names to ika_control.egg-info/top_level.txt
+writing manifest file 'ika_control.egg-info/SOURCES.txt'
+reading manifest file 'ika_control.egg-info/SOURCES.txt'
+writing manifest file 'ika_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_control/lib/python3.10/site-packages/ika-control.egg-link (link to .)
+
+Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_control
+running symlink_data
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ament_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ament_index/resource_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_control/resource/ika_control -> /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_control/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ika_control
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ika_control/launch
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_control/launch/spawn_controllers.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ika_control/launch
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ika_control/config
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_control/config/rover_controllers.yaml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ika_control/config
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_control/config/diff_controllers.yaml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ika_control/config

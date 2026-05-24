@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating ika_sensors.egg-info
+writing ika_sensors.egg-info/PKG-INFO
+writing dependency_links to ika_sensors.egg-info/dependency_links.txt
+writing entry points to ika_sensors.egg-info/entry_points.txt
+writing requirements to ika_sensors.egg-info/requires.txt
+writing top-level names to ika_sensors.egg-info/top_level.txt
+writing manifest file 'ika_sensors.egg-info/SOURCES.txt'
+reading manifest file 'ika_sensors.egg-info/SOURCES.txt'
+writing manifest file 'ika_sensors.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika-sensors.egg-link (link to .)
+Installing laser_range_node script to /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/ika_sensors
+Installing pressure_altitude_node script to /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/ika_sensors
+Installing temp_humidity_node script to /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/ika_sensors
+
+Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors
+running symlink_data
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ament_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ament_index/resource_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/resource/ika_sensors -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/launch/imu.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/launch/lidar.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/launch/environmental.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/launch/cameras.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/launch/gps.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch

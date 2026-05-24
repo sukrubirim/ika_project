@@ -1,3 +1,1 @@
-bool enable
-float32 duration_sec
-string command_source
+/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/rosidl_cmake/srv/SetLaser_Request.msg

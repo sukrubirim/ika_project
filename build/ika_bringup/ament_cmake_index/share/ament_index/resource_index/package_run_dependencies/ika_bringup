@@ -1,1 +1,1 @@
-ika_gazebo;ika_control;ika_description
+ika_gazebo;ika_control;ika_description;joy;teleop_twist_joy;twist_mux;controller_manager

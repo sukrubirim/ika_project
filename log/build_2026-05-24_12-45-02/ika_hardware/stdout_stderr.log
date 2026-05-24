@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating ika_hardware.egg-info
+writing ika_hardware.egg-info/PKG-INFO
+writing dependency_links to ika_hardware.egg-info/dependency_links.txt
+writing entry points to ika_hardware.egg-info/entry_points.txt
+writing requirements to ika_hardware.egg-info/requires.txt
+writing top-level names to ika_hardware.egg-info/top_level.txt
+writing manifest file 'ika_hardware.egg-info/SOURCES.txt'
+reading manifest file 'ika_hardware.egg-info/SOURCES.txt'
+writing manifest file 'ika_hardware.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/lib/python3.10/site-packages/ika-hardware.egg-link (link to .)
+
+Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_hardware
+running symlink_data
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/share/ament_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/share/ament_index/resource_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_hardware/resource/ika_hardware -> /home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_hardware/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/share/ika_hardware

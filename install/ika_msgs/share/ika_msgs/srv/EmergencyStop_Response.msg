@@ -1,3 +1,1 @@
-
-bool success
-string message
+/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/rosidl_cmake/srv/EmergencyStop_Response.msg

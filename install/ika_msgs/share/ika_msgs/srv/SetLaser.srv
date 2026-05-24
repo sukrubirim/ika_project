@@ -1,6 +1,1 @@
-bool enable
-float32 duration_sec
-string command_source
----
-bool success
-string message
+/home/sukru/ika_teknofest_aventra_ws/src/ika_msgs/srv/SetLaser.srv

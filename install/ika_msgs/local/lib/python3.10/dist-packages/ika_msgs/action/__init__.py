@@ -1,1 +1,1 @@
-from ika_msgs.action._aim_and_fire import AimAndFire  # noqa: F401
+/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/rosidl_generator_py/ika_msgs/action/__init__.py

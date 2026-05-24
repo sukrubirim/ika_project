@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/sukru/ika_teknofest_aventra_ws/build/ika_bringup/ament_cmake_environment_hooks/path.dsv

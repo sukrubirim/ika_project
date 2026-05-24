@@ -4,3 +4,6 @@ source;share/ika_hardware/hook/pythonpath.sh
 source;share/ika_hardware/hook/ament_prefix_path.ps1
 source;share/ika_hardware/hook/ament_prefix_path.dsv
 source;share/ika_hardware/hook/ament_prefix_path.sh
+source;../../build/ika_hardware/share/ika_hardware/hook/pythonpath_develop.ps1
+source;../../build/ika_hardware/share/ika_hardware/hook/pythonpath_develop.dsv
+source;../../build/ika_hardware/share/ika_hardware/hook/pythonpath_develop.sh

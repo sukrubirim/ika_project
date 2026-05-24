@@ -1,14 +1,1 @@
-action/AimAndFire.action
-action/AimAndFire.idl
-msg/EnvironmentData.idl
-msg/EnvironmentData.msg
-msg/MissionState.idl
-msg/MissionState.msg
-srv/EmergencyStop.idl
-srv/EmergencyStop.srv
-srv/EmergencyStop_Request.msg
-srv/EmergencyStop_Response.msg
-srv/SetLaser.idl
-srv/SetLaser.srv
-srv/SetLaser_Request.msg
-srv/SetLaser_Response.msg
+/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/ika_msgs

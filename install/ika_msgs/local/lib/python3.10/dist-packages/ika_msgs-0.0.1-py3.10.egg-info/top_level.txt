@@ -1,1 +1,1 @@
-ika_msgs
+/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/ament_cmake_python/ika_msgs/ika_msgs.egg-info/top_level.txt

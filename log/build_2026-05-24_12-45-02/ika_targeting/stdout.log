@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating ika_targeting.egg-info
+writing ika_targeting.egg-info/PKG-INFO
+writing dependency_links to ika_targeting.egg-info/dependency_links.txt
+writing entry points to ika_targeting.egg-info/entry_points.txt
+writing requirements to ika_targeting.egg-info/requires.txt
+writing top-level names to ika_targeting.egg-info/top_level.txt
+writing manifest file 'ika_targeting.egg-info/SOURCES.txt'
+reading manifest file 'ika_targeting.egg-info/SOURCES.txt'
+writing manifest file 'ika_targeting.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages/ika-targeting.egg-link (link to .)
+
+Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting
+running symlink_data
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/share/ament_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/share/ament_index/resource_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/resource/ika_targeting -> /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/share/ika_targeting

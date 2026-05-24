@@ -1,0 +1,315 @@
+[0.201s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake /home/sukru/ika_teknofest_aventra_ws/src/ika_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs
+[1.522s] -- The C compiler identification is GNU 11.4.0
+[1.522s] -- The CXX compiler identification is GNU 11.4.0
+[1.522s] -- Detecting C compiler ABI info
+[1.522s] -- Detecting C compiler ABI info - done
+[1.522s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.522s] -- Detecting C compile features
+[1.522s] -- Detecting C compile features - done
+[1.522s] -- Detecting CXX compiler ABI info
+[1.522s] -- Detecting CXX compiler ABI info - done
+[1.522s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.522s] -- Detecting CXX compile features
+[1.522s] -- Detecting CXX compile features - done
+[1.522s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.522s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.522s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.522s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[1.522s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.522s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.523s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.523s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.523s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.523s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.523s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.523s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.523s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.523s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.523s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.523s] -- Found PythonExtra: .so  
+[1.523s] -- Configuring done
+[1.523s] -- Generating done
+[1.523s] -- Build files have been written to: /home/sukru/ika_teknofest_aventra_ws/build/ika_msgs
+[1.693s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake /home/sukru/ika_teknofest_aventra_ws/src/ika_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs
+[1.695s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/sukru/ika_teknofest_aventra_ws/build/ika_msgs -- -j12 -l12
+[1.751s] [  0%] Built target ament_cmake_python_symlink_ika_msgs
+[1.759s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.782s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.167s] running egg_info
+[2.167s] creating ika_msgs.egg-info
+[2.167s] writing ika_msgs.egg-info/PKG-INFO
+[2.168s] writing dependency_links to ika_msgs.egg-info/dependency_links.txt
+[2.168s] writing top-level names to ika_msgs.egg-info/top_level.txt
+[2.168s] writing manifest file 'ika_msgs.egg-info/SOURCES.txt'
+[2.170s] reading manifest file 'ika_msgs.egg-info/SOURCES.txt'
+[2.170s] writing manifest file 'ika_msgs.egg-info/SOURCES.txt'
+[2.229s] [  3%] Built target ament_cmake_python_build_ika_msgs_egg
+[2.519s] [  3%] Built target ika_msgs__cpp
+[2.530s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.532s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.532s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.590s] [  9%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_generator_c.dir/rosidl_generator_c/ika_msgs/msg/detail/environment_data__functions.c.o[0m
+[2.604s] [ 11%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_generator_c.dir/rosidl_generator_c/ika_msgs/srv/detail/emergency_stop__functions.c.o[0m
+[2.616s] [ 12%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_generator_c.dir/rosidl_generator_c/ika_msgs/msg/detail/mission_state__functions.c.o[0m
+[2.616s] [ 14%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_generator_c.dir/rosidl_generator_c/ika_msgs/srv/detail/set_laser__functions.c.o[0m
+[2.641s] [ 15%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_generator_c.dir/rosidl_generator_c/ika_msgs/action/detail/aim_and_fire__functions.c.o[0m
+[2.737s] [ 17%] [32m[1mLinking C shared library libika_msgs__rosidl_generator_c.so[0m
+[2.770s] [ 17%] Built target ika_msgs__rosidl_generator_c
+[2.779s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.779s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.779s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.906s] [ 23%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ika_msgs/srv/emergency_stop__type_support.cpp.o[0m
+[2.909s] [ 26%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ika_msgs/action/aim_and_fire__type_support.cpp.o[0m
+[2.910s] [ 28%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ika_msgs/srv/set_laser__type_support.cpp.o[0m
+[2.910s] [ 28%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ika_msgs/msg/environment_data__type_support.cpp.o[0m
+[2.916s] [ 30%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ika_msgs/msg/mission_state__type_support.cpp.o[0m
+[3.028s] [ 31%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ika_msgs/srv/detail/emergency_stop__type_support.cpp.o[0m
+[3.031s] [ 33%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ika_msgs/msg/detail/mission_state__type_support.cpp.o[0m
+[3.037s] [ 34%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ika_msgs/msg/detail/environment_data__type_support.cpp.o[0m
+[3.148s] [ 36%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ika_msgs/srv/detail/set_laser__type_support.cpp.o[0m
+[3.177s] [ 38%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ika_msgs/action/detail/aim_and_fire__type_support.cpp.o[0m
+[3.185s] [ 39%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ika_msgs/msg/environment_data__type_support.cpp.o[0m
+[3.195s] [ 41%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ika_msgs/msg/mission_state__type_support.cpp.o[0m
+[3.201s] [ 42%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ika_msgs/srv/emergency_stop__type_support.cpp.o[0m
+[3.215s] [ 44%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ika_msgs/srv/set_laser__type_support.cpp.o[0m
+[3.221s] [ 46%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ika_msgs/msg/detail/dds_fastrtps/environment_data__type_support.cpp.o[0m
+[3.249s] [ 47%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ika_msgs/action/aim_and_fire__type_support.cpp.o[0m
+[3.268s] [ 49%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ika_msgs/srv/detail/dds_fastrtps/emergency_stop__type_support.cpp.o[0m
+[3.289s] [ 50%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ika_msgs/msg/detail/dds_fastrtps/mission_state__type_support.cpp.o[0m
+[3.313s] [ 52%] [32m[1mLinking CXX shared library libika_msgs__rosidl_typesupport_c.so[0m
+[3.315s] [ 53%] [32m[1mLinking CXX shared library libika_msgs__rosidl_typesupport_cpp.so[0m
+[3.370s] [ 55%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ika_msgs/msg/detail/environment_data__type_support.c.o[0m
+[3.385s] [ 55%] Built target ika_msgs__rosidl_typesupport_c
+[3.392s] [ 57%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ika_msgs/msg/detail/mission_state__type_support.c.o[0m
+[3.401s] [ 57%] Built target ika_msgs__rosidl_typesupport_cpp
+[3.414s] [ 58%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ika_msgs/srv/detail/emergency_stop__type_support.c.o[0m
+[3.415s] [ 60%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ika_msgs/srv/detail/set_laser__type_support.c.o[0m
+[3.421s] [ 61%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ika_msgs/action/detail/aim_and_fire__type_support.c.o[0m
+[3.425s] [ 63%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ika_msgs/action/detail/dds_fastrtps/aim_and_fire__type_support.cpp.o[0m
+[3.428s] [ 65%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ika_msgs/srv/detail/dds_fastrtps/set_laser__type_support.cpp.o[0m
+[3.452s] [ 66%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ika_msgs/msg/detail/environment_data__type_support_c.cpp.o[0m
+[3.460s] [ 68%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ika_msgs/msg/detail/mission_state__type_support_c.cpp.o[0m
+[3.467s] [ 69%] [32m[1mLinking C shared library libika_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.467s] [ 71%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ika_msgs/srv/detail/emergency_stop__type_support_c.cpp.o[0m
+[3.474s] [ 73%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ika_msgs/srv/detail/set_laser__type_support_c.cpp.o[0m
+[3.496s] [ 73%] Built target ika_msgs__rosidl_typesupport_introspection_c
+[3.502s] [ 74%] [32mBuilding CXX object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ika_msgs/action/detail/aim_and_fire__type_support_c.cpp.o[0m
+[3.687s] [ 76%] [32m[1mLinking CXX shared library libika_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.742s] [ 76%] Built target ika_msgs__rosidl_typesupport_introspection_cpp
+[3.816s] [ 77%] [32m[1mLinking CXX shared library libika_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.864s] [ 79%] [32m[1mLinking CXX shared library libika_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.866s] [ 79%] Built target ika_msgs__rosidl_typesupport_fastrtps_c
+[3.912s] [ 79%] Built target ika_msgs__rosidl_typesupport_fastrtps_cpp
+[3.924s] [ 79%] Built target ika_msgs
+[3.937s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.604s] [ 80%] Built target ika_msgs__py
+[4.615s] [ 82%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_generator_py.dir/rosidl_generator_py/ika_msgs/msg/_environment_data_s.c.o[0m
+[4.616s] [ 84%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_generator_py.dir/rosidl_generator_py/ika_msgs/msg/_mission_state_s.c.o[0m
+[4.616s] [ 87%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_generator_py.dir/rosidl_generator_py/ika_msgs/srv/_set_laser_s.c.o[0m
+[4.616s] [ 87%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_generator_py.dir/rosidl_generator_py/ika_msgs/srv/_emergency_stop_s.c.o[0m
+[4.616s] [ 88%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_generator_py.dir/rosidl_generator_py/ika_msgs/action/_aim_and_fire_s.c.o[0m
+[4.702s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/ika_msgs/libika_msgs__rosidl_generator_py.so[0m
+[4.730s] [ 90%] Built target ika_msgs__rosidl_generator_py
+[4.744s] [ 93%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ika_msgs/_ika_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.744s] [ 93%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ika_msgs/_ika_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.744s] [ 95%] [32mBuilding C object CMakeFiles/ika_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ika_msgs/_ika_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.826s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ika_msgs/ika_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.826s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ika_msgs/ika_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.826s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ika_msgs/ika_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.853s] [100%] Built target ika_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.853s] [100%] Built target ika_msgs__rosidl_typesupport_introspection_c__pyext
+[4.853s] [100%] Built target ika_msgs__rosidl_typesupport_c__pyext
+[4.860s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/sukru/ika_teknofest_aventra_ws/build/ika_msgs -- -j12 -l12
+[4.862s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/sukru/ika_teknofest_aventra_ws/build/ika_msgs
+[4.866s] -- Install configuration: ""
+[4.866s] -- Execute custom install script
+[4.866s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ament_index/resource_index/rosidl_interfaces/ika_msgs
+[4.872s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/aim_and_fire.h
+[4.876s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__functions.h
+[4.881s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__struct.h
+[4.885s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__type_support.h
+[4.890s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__functions.h
+[4.896s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__struct.h
+[4.901s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__type_support.h
+[4.906s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__functions.h
+[4.911s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__struct.h
+[4.916s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__type_support.h
+[4.922s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/environment_data.h
+[4.927s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/mission_state.h
+[4.932s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.938s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__functions.h
+[4.944s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__struct.h
+[4.950s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__type_support.h
+[4.956s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__functions.h
+[4.962s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__struct.h
+[4.968s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__type_support.h
+[4.973s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/emergency_stop.h
+[4.979s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/set_laser.h
+[4.984s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/environment/library_path.sh
+[4.990s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/environment/library_path.dsv
+[4.995s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__rosidl_typesupport_fastrtps_c.h
+[5.001s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__rosidl_typesupport_fastrtps_c.h
+[5.006s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__rosidl_typesupport_fastrtps_c.h
+[5.012s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.017s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_c.h
+[5.022s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__rosidl_typesupport_fastrtps_c.h
+[5.027s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/aim_and_fire.hpp
+[5.033s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__builder.hpp
+[5.038s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__struct.hpp
+[5.045s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__traits.hpp
+[5.050s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__type_support.hpp
+[5.055s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__builder.hpp
+[5.059s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__struct.hpp
+[5.064s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__traits.hpp
+[5.068s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__type_support.hpp
+[5.073s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__builder.hpp
+[5.078s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__struct.hpp
+[5.083s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__traits.hpp
+[5.088s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__type_support.hpp
+[5.093s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/environment_data.hpp
+[5.098s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/mission_state.hpp
+[5.103s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.108s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__builder.hpp
+[5.113s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__struct.hpp
+[5.117s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__traits.hpp
+[5.122s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__type_support.hpp
+[5.127s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__builder.hpp
+[5.132s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__struct.hpp
+[5.137s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__traits.hpp
+[5.143s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__type_support.hpp
+[5.148s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/emergency_stop.hpp
+[5.153s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/set_laser.hpp
+[5.158s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__rosidl_typesupport_fastrtps_cpp.hpp
+[5.163s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.168s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.172s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.177s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[5.181s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__rosidl_typesupport_fastrtps_cpp.hpp
+[5.186s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__rosidl_typesupport_introspection_c.h
+[5.190s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__rosidl_typesupport_introspection_c.h
+[5.195s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__rosidl_typesupport_introspection_c.h
+[5.199s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.204s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__rosidl_typesupport_introspection_c.h
+[5.208s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__rosidl_typesupport_introspection_c.h
+[5.213s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/action/detail/aim_and_fire__rosidl_typesupport_introspection_cpp.hpp
+[5.218s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/environment_data__rosidl_typesupport_introspection_cpp.hpp
+[5.222s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/msg/detail/mission_state__rosidl_typesupport_introspection_cpp.hpp
+[5.227s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/emergency_stop__rosidl_typesupport_introspection_cpp.hpp
+[5.232s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/include/ika_msgs/ika_msgs/srv/detail/set_laser__rosidl_typesupport_introspection_cpp.hpp
+[5.238s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/environment/pythonpath.sh
+[5.244s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/environment/pythonpath.dsv
+[5.250s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[5.255s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[5.260s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[5.266s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[5.271s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/__init__.py
+[5.276s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/_ika_msgs_s.ep.rosidl_typesupport_c.c
+[5.281s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/_ika_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.287s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/_ika_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.292s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/action/__init__.py
+[5.296s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/action/_aim_and_fire.py
+[5.301s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/action/_aim_and_fire_s.c
+[5.307s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/ika_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.312s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/ika_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.317s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/ika_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.322s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/libika_msgs__rosidl_generator_py.so
+[5.326s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/msg/__init__.py
+[5.331s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/msg/_environment_data.py
+[5.335s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/msg/_environment_data_s.c
+[5.341s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/msg/_mission_state.py
+[5.346s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/msg/_mission_state_s.c
+[5.351s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/srv/__init__.py
+[5.355s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/srv/_emergency_stop.py
+[5.361s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/srv/_emergency_stop_s.c
+[5.366s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/srv/_set_laser.py
+[5.372s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/srv/_set_laser_s.c
+[5.378s] -- Up-to-date symlink: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/ika_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.378s] -- Up-to-date symlink: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/ika_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.378s] -- Up-to-date symlink: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/ika_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.378s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/msg/EnvironmentData.idl
+[5.383s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/msg/MissionState.idl
+[5.388s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/srv/EmergencyStop.idl
+[5.393s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/srv/SetLaser.idl
+[5.398s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/action/AimAndFire.idl
+[5.402s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/msg/EnvironmentData.msg
+[5.407s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/msg/MissionState.msg
+[5.411s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/srv/EmergencyStop.srv
+[5.415s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/srv/EmergencyStop_Request.msg
+[5.420s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/srv/EmergencyStop_Response.msg
+[5.425s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/srv/SetLaser.srv
+[5.430s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/srv/SetLaser_Request.msg
+[5.435s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/srv/SetLaser_Response.msg
+[5.442s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/action/AimAndFire.action
+[5.448s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ament_index/resource_index/package_run_dependencies/ika_msgs
+[5.452s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ament_index/resource_index/parent_prefix_path/ika_msgs
+[5.457s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/environment/ament_prefix_path.sh
+[5.461s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/environment/ament_prefix_path.dsv
+[5.466s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/environment/path.sh
+[5.471s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/environment/path.dsv
+[5.476s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/local_setup.bash
+[5.481s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/local_setup.sh
+[5.486s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/local_setup.zsh
+[5.491s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/local_setup.dsv
+[5.497s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/package.dsv
+[5.501s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ament_index/resource_index/packages/ika_msgs
+[5.506s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/rosidl_cmake-extras.cmake
+[5.511s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.516s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.521s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.525s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.531s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.537s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.542s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ika_msgsConfig.cmake
+[5.547s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ika_msgsConfig-version.cmake
+[5.553s] -- Symlinking: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/package.xml
+[5.559s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_generator_c.so
+[5.559s] -- Set runtime path of "/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_generator_c.so" to ""
+[5.559s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_fastrtps_c.so
+[5.560s] -- Set runtime path of "/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.560s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.560s] -- Set runtime path of "/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.560s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_introspection_c.so
+[5.561s] -- Set runtime path of "/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.561s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_c.so
+[5.561s] -- Set runtime path of "/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_c.so" to ""
+[5.561s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_introspection_cpp.so
+[5.562s] -- Set runtime path of "/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.562s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_cpp.so
+[5.562s] -- Set runtime path of "/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_typesupport_cpp.so" to ""
+[5.598s] Listing '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs'...
+[5.598s] Compiling '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/__init__.py'...
+[5.598s] Listing '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/action'...
+[5.598s] Compiling '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/action/__init__.py'...
+[5.598s] Compiling '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/action/_aim_and_fire.py'...
+[5.598s] Listing '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/msg'...
+[5.598s] Compiling '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/msg/__init__.py'...
+[5.598s] Compiling '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/msg/_environment_data.py'...
+[5.598s] Compiling '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/msg/_mission_state.py'...
+[5.598s] Listing '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/srv'...
+[5.599s] Compiling '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/srv/__init__.py'...
+[5.599s] Compiling '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/srv/_emergency_stop.py'...
+[5.599s] Compiling '/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages/ika_msgs/srv/_set_laser.py'...
+[5.602s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_generator_py.so
+[5.602s] -- Set runtime path of "/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/lib/libika_msgs__rosidl_generator_py.so" to ""
+[5.602s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/export_ika_msgs__rosidl_generator_cExport.cmake
+[5.602s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/export_ika_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.602s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/export_ika_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.602s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/export_ika_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.602s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/export_ika_msgs__rosidl_generator_cppExport.cmake
+[5.603s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/export_ika_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.603s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/export_ika_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.603s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ika_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.603s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ika_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.603s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ika_msgs__rosidl_typesupport_cExport.cmake
+[5.603s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ika_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.603s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ika_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.603s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ika_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.604s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ika_msgs__rosidl_typesupport_cppExport.cmake
+[5.604s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/ika_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.604s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/export_ika_msgs__rosidl_generator_pyExport.cmake
+[5.604s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/share/ika_msgs/cmake/export_ika_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.606s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors:/home/sukru/ai_autonomi_ws/install/ika_autonomi:/home/sukru/Desktop/otonom_atis/install/python_pkg:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup:/home/sukru/ros_ws_demo/install/python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/sukru/ika_teknofest_aventra_ws/build/ika_msgs

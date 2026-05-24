@@ -4,3 +4,6 @@ source;share/ika_behaviors/hook/pythonpath.sh
 source;share/ika_behaviors/hook/ament_prefix_path.ps1
 source;share/ika_behaviors/hook/ament_prefix_path.dsv
 source;share/ika_behaviors/hook/ament_prefix_path.sh
+source;../../build/ika_behaviors/share/ika_behaviors/hook/pythonpath_develop.ps1
+source;../../build/ika_behaviors/share/ika_behaviors/hook/pythonpath_develop.dsv
+source;../../build/ika_behaviors/share/ika_behaviors/hook/pythonpath_develop.sh

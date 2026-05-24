@@ -1,0 +1,23 @@
+[2.089s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge/build --no-deps symlink_data
+[2.345s] running develop
+[2.507s] running egg_info
+[2.507s] creating ika_ui_bridge.egg-info
+[2.507s] writing ika_ui_bridge.egg-info/PKG-INFO
+[2.507s] writing dependency_links to ika_ui_bridge.egg-info/dependency_links.txt
+[2.508s] writing entry points to ika_ui_bridge.egg-info/entry_points.txt
+[2.508s] writing requirements to ika_ui_bridge.egg-info/requires.txt
+[2.508s] writing top-level names to ika_ui_bridge.egg-info/top_level.txt
+[2.508s] writing manifest file 'ika_ui_bridge.egg-info/SOURCES.txt'
+[2.514s] reading manifest file 'ika_ui_bridge.egg-info/SOURCES.txt'
+[2.514s] writing manifest file 'ika_ui_bridge.egg-info/SOURCES.txt'
+[2.514s] running build_ext
+[2.514s] Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/lib/python3.10/site-packages/ika-ui-bridge.egg-link (link to .)
+[2.514s] 
+[2.514s] Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge
+[2.514s] running symlink_data
+[2.514s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/share/ament_index
+[2.515s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/share/ament_index/resource_index
+[2.515s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/share/ament_index/resource_index/packages
+[2.515s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge/resource/ika_ui_bridge -> /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/share/ament_index/resource_index/packages
+[2.515s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/share/ika_ui_bridge
+[2.561s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge' returned '0': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge/build --no-deps symlink_data

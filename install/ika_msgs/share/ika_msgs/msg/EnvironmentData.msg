@@ -1,12 +1,1 @@
-std_msgs/Header header
-
-float32 temperature_celsius
-float32 relative_humidity_percent
-
-float32 pressure_pa
-float32 altitude_m
-
-bool rain_detected
-bool water_detected
-
-string sensor_status
+/home/sukru/ika_teknofest_aventra_ws/src/ika_msgs/msg/EnvironmentData.msg

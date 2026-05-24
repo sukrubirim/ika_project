@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating ika_data_logger.egg-info
+writing ika_data_logger.egg-info/PKG-INFO
+writing dependency_links to ika_data_logger.egg-info/dependency_links.txt
+writing entry points to ika_data_logger.egg-info/entry_points.txt
+writing requirements to ika_data_logger.egg-info/requires.txt
+writing top-level names to ika_data_logger.egg-info/top_level.txt
+writing manifest file 'ika_data_logger.egg-info/SOURCES.txt'
+reading manifest file 'ika_data_logger.egg-info/SOURCES.txt'
+writing manifest file 'ika_data_logger.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/lib/python3.10/site-packages/ika-data-logger.egg-link (link to .)
+
+Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger
+running symlink_data
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/share/ament_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/share/ament_index/resource_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger/resource/ika_data_logger -> /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/share/ika_data_logger

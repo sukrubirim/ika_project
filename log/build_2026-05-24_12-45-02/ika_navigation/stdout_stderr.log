@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating ika_navigation.egg-info
+writing ika_navigation.egg-info/PKG-INFO
+writing dependency_links to ika_navigation.egg-info/dependency_links.txt
+writing entry points to ika_navigation.egg-info/entry_points.txt
+writing requirements to ika_navigation.egg-info/requires.txt
+writing top-level names to ika_navigation.egg-info/top_level.txt
+writing manifest file 'ika_navigation.egg-info/SOURCES.txt'
+reading manifest file 'ika_navigation.egg-info/SOURCES.txt'
+writing manifest file 'ika_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages/ika-navigation.egg-link (link to .)
+
+Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation
+running symlink_data
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/resource/ika_navigation -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/launch
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/launch/online_async_launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/launch
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/launch/localization_launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/launch
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/launch/navigation_launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/launch
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/config
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/config/nav2_params.yaml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/config
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/config/mapper_params_online_async.yaml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/config

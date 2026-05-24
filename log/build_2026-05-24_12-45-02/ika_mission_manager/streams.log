@@ -1,0 +1,23 @@
+[2.132s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_mission_manager': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_mission_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sukru/ika_teknofest_aventra_ws/build/ika_mission_manager/build --no-deps symlink_data
+[2.496s] running develop
+[2.570s] running egg_info
+[2.570s] creating ika_mission_manager.egg-info
+[2.570s] writing ika_mission_manager.egg-info/PKG-INFO
+[2.570s] writing dependency_links to ika_mission_manager.egg-info/dependency_links.txt
+[2.570s] writing entry points to ika_mission_manager.egg-info/entry_points.txt
+[2.570s] writing requirements to ika_mission_manager.egg-info/requires.txt
+[2.570s] writing top-level names to ika_mission_manager.egg-info/top_level.txt
+[2.570s] writing manifest file 'ika_mission_manager.egg-info/SOURCES.txt'
+[2.570s] reading manifest file 'ika_mission_manager.egg-info/SOURCES.txt'
+[2.570s] writing manifest file 'ika_mission_manager.egg-info/SOURCES.txt'
+[2.570s] running build_ext
+[2.570s] Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/lib/python3.10/site-packages/ika-mission-manager.egg-link (link to .)
+[2.570s] 
+[2.570s] Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_mission_manager
+[2.570s] running symlink_data
+[2.570s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/share/ament_index
+[2.570s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/share/ament_index/resource_index
+[2.570s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/share/ament_index/resource_index/packages
+[2.570s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_mission_manager/resource/ika_mission_manager -> /home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/share/ament_index/resource_index/packages
+[2.570s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_mission_manager/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/share/ika_mission_manager
+[2.639s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_mission_manager' returned '0': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_mission_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sukru/ika_teknofest_aventra_ws/build/ika_mission_manager/build --no-deps symlink_data

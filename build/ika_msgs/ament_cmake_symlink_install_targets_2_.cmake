@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sukru/ika_teknofest_aventra_ws/build/ika_msgs/rosidl_generator_py/ika_msgs/ika_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "ika_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ika_msgs")

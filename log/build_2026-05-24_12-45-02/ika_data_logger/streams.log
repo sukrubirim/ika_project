@@ -1,0 +1,23 @@
+[2.092s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger/build --no-deps symlink_data
+[2.384s] running develop
+[2.582s] running egg_info
+[2.582s] creating ika_data_logger.egg-info
+[2.582s] writing ika_data_logger.egg-info/PKG-INFO
+[2.582s] writing dependency_links to ika_data_logger.egg-info/dependency_links.txt
+[2.582s] writing entry points to ika_data_logger.egg-info/entry_points.txt
+[2.582s] writing requirements to ika_data_logger.egg-info/requires.txt
+[2.582s] writing top-level names to ika_data_logger.egg-info/top_level.txt
+[2.582s] writing manifest file 'ika_data_logger.egg-info/SOURCES.txt'
+[2.582s] reading manifest file 'ika_data_logger.egg-info/SOURCES.txt'
+[2.582s] writing manifest file 'ika_data_logger.egg-info/SOURCES.txt'
+[2.582s] running build_ext
+[2.582s] Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/lib/python3.10/site-packages/ika-data-logger.egg-link (link to .)
+[2.582s] 
+[2.583s] Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger
+[2.583s] running symlink_data
+[2.583s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/share/ament_index
+[2.583s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/share/ament_index/resource_index
+[2.583s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/share/ament_index/resource_index/packages
+[2.583s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger/resource/ika_data_logger -> /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/share/ament_index/resource_index/packages
+[2.583s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/share/ika_data_logger
+[2.649s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger' returned '0': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sukru/ika_teknofest_aventra_ws/build/ika_data_logger/build --no-deps symlink_data

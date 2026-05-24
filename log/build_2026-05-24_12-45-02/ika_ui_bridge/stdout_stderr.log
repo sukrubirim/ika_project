@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating ika_ui_bridge.egg-info
+writing ika_ui_bridge.egg-info/PKG-INFO
+writing dependency_links to ika_ui_bridge.egg-info/dependency_links.txt
+writing entry points to ika_ui_bridge.egg-info/entry_points.txt
+writing requirements to ika_ui_bridge.egg-info/requires.txt
+writing top-level names to ika_ui_bridge.egg-info/top_level.txt
+writing manifest file 'ika_ui_bridge.egg-info/SOURCES.txt'
+reading manifest file 'ika_ui_bridge.egg-info/SOURCES.txt'
+writing manifest file 'ika_ui_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/lib/python3.10/site-packages/ika-ui-bridge.egg-link (link to .)
+
+Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge
+running symlink_data
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/share/ament_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/share/ament_index/resource_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge/resource/ika_ui_bridge -> /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_ui_bridge/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/share/ika_ui_bridge

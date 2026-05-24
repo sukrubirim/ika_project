@@ -1,18 +1,1 @@
-<?xml version="1.0"?>
-<package format="3">
-  <name>ika_bringup</name>
-  <version>0.0.1</version>
-  <description>Top-level launch files for IKA TEKNOFEST robot.</description>
-  <maintainer email="sukru.birim@gmail.com">Şükrü Birim</maintainer>
-  <license>MIT</license>
-
-  <buildtool_depend>ament_cmake</buildtool_depend>
-
-  <exec_depend>ika_gazebo</exec_depend>
-  <exec_depend>ika_control</exec_depend>
-  <exec_depend>ika_description</exec_depend>
-
-  <export>
-    <build_type>ament_cmake</build_type>
-  </export>
-</package>
+/home/sukru/ika_teknofest_aventra_ws/src/ika_bringup/package.xml

@@ -1,0 +1,5 @@
+# TEKNOFEST UPDATE: Gazebo ROS pluginleri icin ornek projedeki params-file mantigi eklendi.
+gazebo:
+  ros__parameters:
+    publish_rate: 400.0
+    use_sim_time: true

@@ -1,0 +1,30 @@
+[2.116s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_navigation': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build --no-deps symlink_data
+[2.374s] running develop
+[2.534s] running egg_info
+[2.534s] creating ika_navigation.egg-info
+[2.534s] writing ika_navigation.egg-info/PKG-INFO
+[2.534s] writing dependency_links to ika_navigation.egg-info/dependency_links.txt
+[2.534s] writing entry points to ika_navigation.egg-info/entry_points.txt
+[2.534s] writing requirements to ika_navigation.egg-info/requires.txt
+[2.534s] writing top-level names to ika_navigation.egg-info/top_level.txt
+[2.535s] writing manifest file 'ika_navigation.egg-info/SOURCES.txt'
+[2.536s] reading manifest file 'ika_navigation.egg-info/SOURCES.txt'
+[2.537s] writing manifest file 'ika_navigation.egg-info/SOURCES.txt'
+[2.538s] running build_ext
+[2.538s] Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages/ika-navigation.egg-link (link to .)
+[2.539s] 
+[2.539s] Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation
+[2.539s] running symlink_data
+[2.539s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index
+[2.539s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index
+[2.539s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index/packages
+[2.539s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/resource/ika_navigation -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index/packages
+[2.539s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation
+[2.539s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/launch
+[2.539s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/launch/online_async_launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/launch
+[2.539s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/launch/localization_launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/launch
+[2.539s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/launch/navigation_launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/launch
+[2.539s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/config
+[2.539s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/config/nav2_params.yaml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/config
+[2.540s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/config/mapper_params_online_async.yaml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation/config
+[2.610s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_navigation' returned '0': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build --no-deps symlink_data

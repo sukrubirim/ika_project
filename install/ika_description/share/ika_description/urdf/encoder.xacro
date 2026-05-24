@@ -1,4 +1,1 @@
-<?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <!-- Enkoderler fiziksel robotta teker motor millerinde olur. Simülasyonda wheel_joint state ve diff_drive /odom bu görevi görür. -->
-</robot>
+/home/sukru/ika_teknofest_aventra_ws/src/ika_description/urdf/encoder.xacro

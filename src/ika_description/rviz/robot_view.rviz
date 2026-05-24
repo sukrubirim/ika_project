@@ -1,3 +1,4 @@
+# TEKNOFEST UPDATE: RViz acilinca Gazebo sensor topiclerini dogrudan incelemek icin LaserScan ve kamera displayleri eklendi.
 Panels:
   - Class: rviz_common/Displays
 Visualization Manager:
@@ -14,6 +15,30 @@ Visualization Manager:
     - Class: rviz_default_plugins/TF
       Enabled: true
       Name: TF
+    - Class: rviz_default_plugins/LaserScan
+      Enabled: true
+      Name: LiDAR Scan
+      Topic:
+        Value: /scan
+      Queue Size: 10
+      Style: Points
+      Size (m): 0.03
+      Alpha: 1
+    - Class: rviz_default_plugins/Image
+      Enabled: true
+      Name: Front Camera
+      Topic:
+        Value: /front_camera/image_raw
+    - Class: rviz_default_plugins/Image
+      Enabled: false
+      Name: Rear Camera
+      Topic:
+        Value: /rear_camera/image_raw
+    - Class: rviz_default_plugins/Image
+      Enabled: false
+      Name: Aim Camera
+      Topic:
+        Value: /aim_camera/image_raw
   Enabled: true
   Global Options:
     Fixed Frame: base_link

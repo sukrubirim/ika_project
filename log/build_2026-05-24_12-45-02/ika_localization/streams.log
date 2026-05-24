@@ -1,0 +1,23 @@
+[2.038s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_localization': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/build --no-deps symlink_data
+[2.291s] running develop
+[2.466s] running egg_info
+[2.466s] creating ika_localization.egg-info
+[2.466s] writing ika_localization.egg-info/PKG-INFO
+[2.466s] writing dependency_links to ika_localization.egg-info/dependency_links.txt
+[2.466s] writing entry points to ika_localization.egg-info/entry_points.txt
+[2.467s] writing requirements to ika_localization.egg-info/requires.txt
+[2.467s] writing top-level names to ika_localization.egg-info/top_level.txt
+[2.467s] writing manifest file 'ika_localization.egg-info/SOURCES.txt'
+[2.468s] reading manifest file 'ika_localization.egg-info/SOURCES.txt'
+[2.469s] writing manifest file 'ika_localization.egg-info/SOURCES.txt'
+[2.470s] running build_ext
+[2.470s] Creating /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages/ika-localization.egg-link (link to .)
+[2.471s] 
+[2.471s] Installed /home/sukru/ika_teknofest_aventra_ws/build/ika_localization
+[2.471s] running symlink_data
+[2.471s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/share/ament_index
+[2.471s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/share/ament_index/resource_index
+[2.471s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/share/ament_index/resource_index/packages
+[2.471s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/resource/ika_localization -> /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/share/ament_index/resource_index/packages
+[2.471s] symbolically linking /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/share/ika_localization
+[2.504s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_localization' returned '0': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/build --no-deps symlink_data

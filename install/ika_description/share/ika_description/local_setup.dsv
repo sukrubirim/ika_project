@@ -1,2 +1,1 @@
-source;share/ika_description/environment/ament_prefix_path.sh
-source;share/ika_description/environment/path.sh
+/home/sukru/ika_teknofest_aventra_ws/build/ika_description/ament_cmake_environment_hooks/local_setup.dsv
