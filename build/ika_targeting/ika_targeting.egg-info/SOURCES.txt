@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ika_targeting/ika_targeting.egg-info/PKG-INFO
+../../build/ika_targeting/ika_targeting.egg-info/SOURCES.txt
+../../build/ika_targeting/ika_targeting.egg-info/dependency_links.txt
+../../build/ika_targeting/ika_targeting.egg-info/entry_points.txt
+../../build/ika_targeting/ika_targeting.egg-info/requires.txt
+../../build/ika_targeting/ika_targeting.egg-info/top_level.txt
+../../build/ika_targeting/ika_targeting.egg-info/zip-safe
+ika_targeting/__init__.py
+resource/ika_targeting
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

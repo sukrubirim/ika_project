@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ika-control
+Version: 0.0.0
+Summary: IKA control package for Gazebo ros2_control and diff_drive_controller
+Home-page: UNKNOWN
+Maintainer: sukru
+Maintainer-email: sukru.birim@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

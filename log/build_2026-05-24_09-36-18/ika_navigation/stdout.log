@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/ika_navigation/ika_navigation.egg-info
+writing ../../build/ika_navigation/ika_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/ika_navigation/ika_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/ika_navigation/ika_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/ika_navigation/ika_navigation.egg-info/requires.txt
+writing top-level names to ../../build/ika_navigation/ika_navigation.egg-info/top_level.txt
+writing manifest file '../../build/ika_navigation/ika_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/ika_navigation/ika_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/ika_navigation/ika_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build
+creating /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build/lib
+creating /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build/lib/ika_navigation
+copying ika_navigation/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build/lib/ika_navigation
+running install
+running install_lib
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages/ika_navigation
+copying /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build/lib/ika_navigation/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages/ika_navigation
+byte-compiling /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages/ika_navigation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index
+creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index/packages
+copying resource/ika_navigation -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation
+running install_egg_info
+Copying ../../build/ika_navigation/ika_navigation.egg-info to /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages/ika_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/install.log'

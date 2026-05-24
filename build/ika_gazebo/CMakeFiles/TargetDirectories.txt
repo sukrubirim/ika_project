@@ -1,0 +1,9 @@
+/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo/CMakeFiles/uninstall.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo/CMakeFiles/ika_gazebo_uninstall.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo/CMakeFiles/test.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo/CMakeFiles/edit_cache.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo/CMakeFiles/rebuild_cache.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo/CMakeFiles/list_install_components.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo/CMakeFiles/install.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo/CMakeFiles/install/local.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo/CMakeFiles/install/strip.dir

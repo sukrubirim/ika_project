@@ -1,0 +1,33 @@
+[2.012s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/src/ika_navigation': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_navigation build --build-base /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build install --record /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/install.log --single-version-externally-managed install_data
+[2.301s] running egg_info
+[2.302s] creating ../../build/ika_navigation/ika_navigation.egg-info
+[2.302s] writing ../../build/ika_navigation/ika_navigation.egg-info/PKG-INFO
+[2.302s] writing dependency_links to ../../build/ika_navigation/ika_navigation.egg-info/dependency_links.txt
+[2.302s] writing entry points to ../../build/ika_navigation/ika_navigation.egg-info/entry_points.txt
+[2.302s] writing requirements to ../../build/ika_navigation/ika_navigation.egg-info/requires.txt
+[2.302s] writing top-level names to ../../build/ika_navigation/ika_navigation.egg-info/top_level.txt
+[2.302s] writing manifest file '../../build/ika_navigation/ika_navigation.egg-info/SOURCES.txt'
+[2.304s] reading manifest file '../../build/ika_navigation/ika_navigation.egg-info/SOURCES.txt'
+[2.305s] writing manifest file '../../build/ika_navigation/ika_navigation.egg-info/SOURCES.txt'
+[2.305s] running build
+[2.305s] running build_py
+[2.305s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build
+[2.305s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build/lib
+[2.305s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build/lib/ika_navigation
+[2.305s] copying ika_navigation/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build/lib/ika_navigation
+[2.305s] running install
+[2.306s] running install_lib
+[2.307s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages/ika_navigation
+[2.307s] copying /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build/lib/ika_navigation/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages/ika_navigation
+[2.308s] byte-compiling /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages/ika_navigation/__init__.py to __init__.cpython-310.pyc
+[2.308s] running install_data
+[2.308s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index
+[2.308s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index
+[2.308s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index/packages
+[2.308s] copying resource/ika_navigation -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ament_index/resource_index/packages
+[2.308s] copying package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/share/ika_navigation
+[2.308s] running install_egg_info
+[2.310s] Copying ../../build/ika_navigation/ika_navigation.egg-info to /home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages/ika_navigation-0.0.0-py3.10.egg-info
+[2.311s] running install_scripts
+[2.343s] writing list of installed files to '/home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/install.log'
+[2.403s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/src/ika_navigation' returned '0': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_navigation build --build-base /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/build install --record /home/sukru/ika_teknofest_aventra_ws/build/ika_navigation/install.log --single-version-externally-managed install_data

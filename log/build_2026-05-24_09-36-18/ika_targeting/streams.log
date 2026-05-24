@@ -1,0 +1,33 @@
+[2.002s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/src/ika_targeting': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_targeting build --build-base /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/build install --record /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/install.log --single-version-externally-managed install_data
+[2.297s] running egg_info
+[2.298s] creating ../../build/ika_targeting/ika_targeting.egg-info
+[2.298s] writing ../../build/ika_targeting/ika_targeting.egg-info/PKG-INFO
+[2.299s] writing dependency_links to ../../build/ika_targeting/ika_targeting.egg-info/dependency_links.txt
+[2.299s] writing entry points to ../../build/ika_targeting/ika_targeting.egg-info/entry_points.txt
+[2.299s] writing requirements to ../../build/ika_targeting/ika_targeting.egg-info/requires.txt
+[2.299s] writing top-level names to ../../build/ika_targeting/ika_targeting.egg-info/top_level.txt
+[2.299s] writing manifest file '../../build/ika_targeting/ika_targeting.egg-info/SOURCES.txt'
+[2.301s] reading manifest file '../../build/ika_targeting/ika_targeting.egg-info/SOURCES.txt'
+[2.301s] writing manifest file '../../build/ika_targeting/ika_targeting.egg-info/SOURCES.txt'
+[2.301s] running build
+[2.301s] running build_py
+[2.301s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/build
+[2.302s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/build/lib
+[2.302s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/build/lib/ika_targeting
+[2.302s] copying ika_targeting/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/build/lib/ika_targeting
+[2.302s] running install
+[2.302s] running install_lib
+[2.303s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages/ika_targeting
+[2.303s] copying /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/build/lib/ika_targeting/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages/ika_targeting
+[2.303s] byte-compiling /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages/ika_targeting/__init__.py to __init__.cpython-310.pyc
+[2.304s] running install_data
+[2.304s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/share/ament_index
+[2.304s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/share/ament_index/resource_index
+[2.304s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/share/ament_index/resource_index/packages
+[2.304s] copying resource/ika_targeting -> /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/share/ament_index/resource_index/packages
+[2.304s] copying package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/share/ika_targeting
+[2.304s] running install_egg_info
+[2.306s] Copying ../../build/ika_targeting/ika_targeting.egg-info to /home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages/ika_targeting-0.0.0-py3.10.egg-info
+[2.308s] running install_scripts
+[2.334s] writing list of installed files to '/home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/install.log'
+[2.389s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/src/ika_targeting' returned '0': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_targeting build --build-base /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/build install --record /home/sukru/ika_teknofest_aventra_ws/build/ika_targeting/install.log --single-version-externally-managed install_data

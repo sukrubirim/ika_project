@@ -4,47 +4,103 @@
     <inertial>
       <mass value="${mass}"/>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <inertia ixx="${mass*(y*y+z*z)/12}" ixy="0" ixz="0" iyy="${mass*(x*x+z*z)/12}" iyz="0" izz="${mass*(x*x+y*y)/12}"/>
+      <inertia
+        ixx="${mass*(y*y+z*z)/12}" ixy="0" ixz="0"
+        iyy="${mass*(x*x+z*z)/12}" iyz="0"
+        izz="${mass*(x*x+y*y)/12}"/>
     </inertial>
   </xacro:macro>
 
   <xacro:macro name="ika_base">
+    <!-- base_footprint zemindedir. base_link şasenin merkezidir. -->
     <link name="base_footprint"/>
+
     <joint name="base_footprint_joint" type="fixed">
       <parent link="base_footprint"/>
       <child link="base_link"/>
       <origin xyz="0 0 ${ground_clearance}" rpy="0 0 0"/>
     </joint>
 
+    <!-- Ana şase: robot_description.pdf içindeki 140 cm x 95 cm yapıya yakın ölçülendirilmiştir. -->
     <link name="base_link">
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
-        <geometry><box size="${base_length} ${base_width} ${base_height}"/></geometry>
-        <material name="dark_gray"><color rgba="0.12 0.12 0.12 1"/></material>
+        <geometry>
+          <box size="${base_length} ${base_width} ${base_height}"/>
+        </geometry>
+        <material name="dark_gray">
+          <color rgba="0.10 0.10 0.10 1.0"/>
+        </material>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
-        <geometry><box size="${base_length} ${base_width} ${base_height}"/></geometry>
+        <geometry>
+          <box size="${base_length} ${base_width} ${base_height}"/>
+        </geometry>
       </collision>
       <xacro:box_inertial mass="42.0" x="${base_length}" y="${base_width}" z="${base_height}"/>
     </link>
 
-    <link name="upper_frame_link">
+    <!-- Sensörleri taşıyan üst şase/platform. Tüm kamera, lidar, gps, imu vb. bu şase üzerine bağlanır. -->
+    <link name="sensor_deck_link">
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
-        <geometry><box size="1.05 0.65 0.06"/></geometry>
-        <material name="metal"><color rgba="0.45 0.45 0.45 1"/></material>
+        <geometry>
+          <box size="1.08 0.66 0.055"/>
+        </geometry>
+        <material name="sensor_deck_gray">
+          <color rgba="0.42 0.42 0.42 1.0"/>
+        </material>
       </visual>
-      <collision><geometry><box size="1.05 0.65 0.06"/></geometry></collision>
-      <xacro:box_inertial mass="4.0" x="1.05" y="0.65" z="0.06"/>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="1.08 0.66 0.055"/>
+        </geometry>
+      </collision>
+      <xacro:box_inertial mass="5.0" x="1.08" y="0.66" z="0.055"/>
     </link>
-    <joint name="upper_frame_joint" type="fixed">
+
+    <joint name="sensor_deck_joint" type="fixed">
       <parent link="base_link"/>
-      <child link="upper_frame_link"/>
-      <origin xyz="0 0 0.20" rpy="0 0 0"/>
+      <child link="sensor_deck_link"/>
+      <origin xyz="0 0 ${base_height/2 + 0.055/2 + 0.035}" rpy="0 0 0"/>
     </joint>
 
-    <gazebo reference="base_link"><material>Gazebo/DarkGrey</material></gazebo>
-    <gazebo reference="upper_frame_link"><material>Gazebo/Grey</material></gazebo>
+    <!-- Elektronik muhafaza: Jetson Nano, Arduino Mega, batarya ve sürücülerin sembolik kutusu. -->
+    <link name="electronics_box_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.42 0.32 0.12"/>
+        </geometry>
+        <material name="electronics_blue">
+          <color rgba="0.05 0.12 0.25 1.0"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.42 0.32 0.12"/>
+        </geometry>
+      </collision>
+      <xacro:box_inertial mass="4.0" x="0.42" y="0.32" z="0.12"/>
+    </link>
+
+    <joint name="electronics_box_joint" type="fixed">
+      <parent link="sensor_deck_link"/>
+      <child link="electronics_box_link"/>
+      <origin xyz="-0.22 0 0.09" rpy="0 0 0"/>
+    </joint>
+
+    <gazebo reference="base_link">
+      <material>Gazebo/DarkGrey</material>
+    </gazebo>
+    <gazebo reference="sensor_deck_link">
+      <material>Gazebo/Grey</material>
+    </gazebo>
+    <gazebo reference="electronics_box_link">
+      <material>Gazebo/Blue</material>
+    </gazebo>
   </xacro:macro>
 </robot>

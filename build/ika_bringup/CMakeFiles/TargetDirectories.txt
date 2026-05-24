@@ -1,0 +1,9 @@
+/home/sukru/ika_teknofest_aventra_ws/build/ika_bringup/CMakeFiles/uninstall.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_bringup/CMakeFiles/ika_bringup_uninstall.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_bringup/CMakeFiles/test.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_bringup/CMakeFiles/edit_cache.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_bringup/CMakeFiles/rebuild_cache.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_bringup/CMakeFiles/list_install_components.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_bringup/CMakeFiles/install.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_bringup/CMakeFiles/install/local.dir
+/home/sukru/ika_teknofest_aventra_ws/build/ika_bringup/CMakeFiles/install/strip.dir

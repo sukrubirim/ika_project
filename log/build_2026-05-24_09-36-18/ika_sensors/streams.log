@@ -1,0 +1,51 @@
+[0.404s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/src/ika_sensors': AMENT_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_sensors build --build-base /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build install --record /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/install.log --single-version-externally-managed install_data
+[0.579s] running egg_info
+[0.579s] creating ../../build/ika_sensors/ika_sensors.egg-info
+[0.579s] writing ../../build/ika_sensors/ika_sensors.egg-info/PKG-INFO
+[0.579s] writing dependency_links to ../../build/ika_sensors/ika_sensors.egg-info/dependency_links.txt
+[0.579s] writing entry points to ../../build/ika_sensors/ika_sensors.egg-info/entry_points.txt
+[0.579s] writing requirements to ../../build/ika_sensors/ika_sensors.egg-info/requires.txt
+[0.579s] writing top-level names to ../../build/ika_sensors/ika_sensors.egg-info/top_level.txt
+[0.580s] writing manifest file '../../build/ika_sensors/ika_sensors.egg-info/SOURCES.txt'
+[0.581s] reading manifest file '../../build/ika_sensors/ika_sensors.egg-info/SOURCES.txt'
+[0.581s] writing manifest file '../../build/ika_sensors/ika_sensors.egg-info/SOURCES.txt'
+[0.581s] running build
+[0.581s] running build_py
+[0.581s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build
+[0.582s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build/lib
+[0.582s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build/lib/ika_sensors
+[0.582s] copying ika_sensors/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build/lib/ika_sensors
+[0.582s] copying ika_sensors/laser_range_node.py -> /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build/lib/ika_sensors
+[0.582s] copying ika_sensors/pressure_altitude_node.py -> /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build/lib/ika_sensors
+[0.582s] copying ika_sensors/temp_humidity_node.py -> /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build/lib/ika_sensors
+[0.582s] running install
+[0.582s] running install_lib
+[0.582s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika_sensors
+[0.582s] copying /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build/lib/ika_sensors/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika_sensors
+[0.582s] copying /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build/lib/ika_sensors/laser_range_node.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika_sensors
+[0.582s] copying /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build/lib/ika_sensors/pressure_altitude_node.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika_sensors
+[0.582s] copying /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build/lib/ika_sensors/temp_humidity_node.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika_sensors
+[0.583s] byte-compiling /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika_sensors/__init__.py to __init__.cpython-310.pyc
+[0.583s] byte-compiling /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika_sensors/laser_range_node.py to laser_range_node.cpython-310.pyc
+[0.583s] byte-compiling /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika_sensors/pressure_altitude_node.py to pressure_altitude_node.cpython-310.pyc
+[0.584s] byte-compiling /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika_sensors/temp_humidity_node.py to temp_humidity_node.cpython-310.pyc
+[0.584s] running install_data
+[0.584s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ament_index
+[0.584s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ament_index/resource_index
+[0.584s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ament_index/resource_index/packages
+[0.584s] copying resource/ika_sensors -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ament_index/resource_index/packages
+[0.584s] copying package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors
+[0.584s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+[0.585s] copying launch/imu.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+[0.585s] copying launch/lidar.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+[0.585s] copying launch/environmental.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+[0.585s] copying launch/cameras.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+[0.585s] copying launch/gps.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/share/ika_sensors/launch
+[0.585s] running install_egg_info
+[0.586s] Copying ../../build/ika_sensors/ika_sensors.egg-info to /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages/ika_sensors-0.0.1-py3.10.egg-info
+[0.586s] running install_scripts
+[0.599s] Installing laser_range_node script to /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/ika_sensors
+[0.599s] Installing pressure_altitude_node script to /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/ika_sensors
+[0.599s] Installing temp_humidity_node script to /home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/ika_sensors
+[0.599s] writing list of installed files to '/home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/install.log'
+[0.616s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/src/ika_sensors' returned '0': AMENT_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_sensors build --build-base /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/build install --record /home/sukru/ika_teknofest_aventra_ws/build/ika_sensors/install.log --single-version-externally-managed install_data

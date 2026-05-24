@@ -1,0 +1,134 @@
+[0.006s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo': AMENT_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/opt/ros/humble PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_control/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages:/home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages:/home/sukru/Desktop/otonom_atis/build/python_pkg:/home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup/lib/python3.10/site-packages:/home/sukru/ros_ws_demo/install/python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/sukru/ika_teknofest_aventra_ws/src/ika_gazebo -DCMAKE_INSTALL_PREFIX=/home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.075s] -- The CXX compiler identification is GNU 11.4.0
+[0.079s] -- Detecting C compiler ABI info
+[0.125s] -- Detecting C compiler ABI info - done
+[0.129s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.129s] -- Detecting C compile features
+[0.129s] -- Detecting C compile features - done
+[0.132s] -- Detecting CXX compiler ABI info
+[0.181s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.185s] -- Detecting CXX compile features
+[0.185s] -- Detecting CXX compile features - done
+[0.187s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.286s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.342s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.371s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.374s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.379s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.422s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.424s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.482s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.502s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.534s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.540s] -- Looking for pthread.h
+[0.587s] -- Looking for pthread.h - found
+[0.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.636s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.637s] -- Found Threads: TRUE  
+[0.671s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.671s] -- Checking for module 'bullet>=2.82'
+[0.680s] --   Found bullet, version 3.05
+[0.751s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.783s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.796s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.815s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.824s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.827s] -- Looking for ignition-math6 -- found version 6.16.0
+[0.831s] -- Searching for dependencies of ignition-math6
+[0.832s] -- Looking for OGRE...
+[0.832s] -- OGRE_PREFIX_WATCH changed.
+[0.836s] -- Checking for module 'OGRE'
+[0.844s] --   Found OGRE, version 1.9.0
+[0.865s] -- Found Ogre Ghadamon (1.9.0)
+[0.870s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.875s] -- Looking for OGRE_Paging...
+[0.878s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.878s] -- Looking for OGRE_Terrain...
+[0.881s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.881s] -- Looking for OGRE_Property...
+[0.884s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.884s] -- Looking for OGRE_RTShaderSystem...
+[0.887s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.887s] -- Looking for OGRE_Volume...
+[0.890s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.890s] -- Looking for OGRE_Overlay...
+[0.893s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.964s] -- Looking for ignition-math6 -- found version 6.16.0
+[0.965s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.966s] -- Searching for dependencies of ignition-transport8
+[0.980s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.989s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.993s] -- Checking for module 'libzmq >= 4'
+[1.003s] --   Found libzmq , version 4.3.4
+[1.027s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.031s] -- Checking for module 'uuid'
+[1.039s] --   Found uuid, version 2.37.2
+[1.061s] -- Found UUID: TRUE  
+[1.062s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.063s] -- Searching for dependencies of ignition-msgs5
+[1.077s] -- Looking for ignition-math6 -- found version 6.16.0
+[1.080s] -- Checking for module 'tinyxml2'
+[1.088s] --   Found tinyxml2, version 9.0.0
+[1.111s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.113s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.113s] -- Searching for dependencies of ignition-common3
+[1.113s] -- Looking for dlfcn.h - found
+[1.114s] -- Looking for libdl - found
+[1.115s] -- Found DL: TRUE  
+[1.122s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.123s] -- Searching for <ignition-common3> component [graphics]
+[1.124s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.124s] -- Searching for dependencies of ignition-common3-graphics
+[1.125s] -- Looking for ignition-math6 -- found version 6.16.0
+[1.127s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.127s] -- Searching for dependencies of ignition-fuel_tools4
+[1.179s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.184s] -- Checking for module 'jsoncpp'
+[1.193s] --   Found jsoncpp, version 1.9.5
+[1.215s] -- Found JSONCPP: TRUE  
+[1.219s] -- Checking for module 'libzip'
+[1.227s] --   Found libzip, version 1.7.3
+[1.249s] -- Found ZIP: TRUE  
+[1.249s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.249s] -- Looking for ignition-math6 -- found version 6.16.0
+[1.249s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.251s] -- Gazebo version: 11.10
+[1.252s] -- Checking for module 'tbb'
+[1.260s] --   Found tbb, version 2021.5.0
+[1.282s] -- Found ika_description: 0.0.1 (/home/sukru/ika_teknofest_aventra_ws/install/ika_description/share/ika_description/cmake)
+[1.323s] -- Configuring done
+[1.328s] -- Generating done
+[1.329s] -- Build files have been written to: /home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo
+[1.337s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo' returned '0': AMENT_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/opt/ros/humble PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_control/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages:/home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages:/home/sukru/Desktop/otonom_atis/build/python_pkg:/home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup/lib/python3.10/site-packages:/home/sukru/ros_ws_demo/install/python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/sukru/ika_teknofest_aventra_ws/src/ika_gazebo -DCMAKE_INSTALL_PREFIX=/home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo
+[1.338s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo': AMENT_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/opt/ros/humble PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_control/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages:/home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages:/home/sukru/Desktop/otonom_atis/build/python_pkg:/home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup/lib/python3.10/site-packages:/home/sukru/ros_ws_demo/install/python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo -- -j12 -l12
+[1.365s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo' returned '0': AMENT_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/opt/ros/humble PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_control/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages:/home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages:/home/sukru/Desktop/otonom_atis/build/python_pkg:/home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup/lib/python3.10/site-packages:/home/sukru/ros_ws_demo/install/python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo -- -j12 -l12
+[1.366s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo': AMENT_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/opt/ros/humble PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_control/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages:/home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages:/home/sukru/Desktop/otonom_atis/build/python_pkg:/home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup/lib/python3.10/site-packages:/home/sukru/ros_ws_demo/install/python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo
+[1.370s] -- Install configuration: ""
+[1.370s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/launch
+[1.370s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/launch/__pycache__
+[1.370s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/launch/__pycache__/teknofest_sim.launch.cpython-313.pyc
+[1.370s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/launch/teknofest_sim.launch.py
+[1.370s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/models
+[1.370s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/worlds
+[1.370s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/worlds/teknofest_track.world
+[1.370s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/lib/ika_gazebo/sliding_obstacle_controller.py
+[1.370s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ament_index/resource_index/package_run_dependencies/ika_gazebo
+[1.371s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ament_index/resource_index/parent_prefix_path/ika_gazebo
+[1.371s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/environment/ament_prefix_path.sh
+[1.371s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/environment/ament_prefix_path.dsv
+[1.371s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/environment/path.sh
+[1.371s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/environment/path.dsv
+[1.371s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/local_setup.bash
+[1.371s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/local_setup.sh
+[1.371s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/local_setup.zsh
+[1.371s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/local_setup.dsv
+[1.372s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/package.dsv
+[1.372s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ament_index/resource_index/packages/ika_gazebo
+[1.372s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/cmake/ika_gazeboConfig.cmake
+[1.372s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/cmake/ika_gazeboConfig-version.cmake
+[1.372s] -- Installing: /home/sukru/ika_teknofest_aventra_ws/install/ika_gazebo/share/ika_gazebo/package.xml
+[1.373s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo' returned '0': AMENT_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/home/sukru/ika_teknofest_aventra_ws/install/ika_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_description:/opt/ros/humble PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/install/ika_control/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_ui_bridge/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_targeting/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_navigation/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_mission_manager/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_hardware/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_data_logger/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_behaviors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_sensors/lib/python3.10/site-packages:/home/sukru/ika_teknofest_aventra_ws/install/ika_msgs/local/lib/python3.10/dist-packages:/home/sukru/ai_autonomi_ws/install/ika_autonomi/lib/python3.10/site-packages:/home/sukru/Desktop/otonom_atis/build/python_pkg:/home/sukru/Desktop/otonom_atis/install/python_pkg/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_teleop/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_sensors/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_navigation/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_msgs/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_mapping/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_description/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_control/lib/python3.10/site-packages:/home/sukru/ros_ws_vacuum_bot/install/vacuum_bringup/lib/python3.10/site-packages:/home/sukru/ros_ws_demo/install/python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/sukru/ika_teknofest_aventra_ws/build/ika_gazebo

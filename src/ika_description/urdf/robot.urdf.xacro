@@ -1,14 +1,21 @@
 <?xml version="1.0"?>
 <robot name="ika_teknofest_aventra" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:property name="PI" value="3.14159265359"/>
+
+  <!-- Gerçek rapora yakın genel boyutlar: 1.40 m uzunluk, 0.95 m genişlik. -->
   <xacro:property name="base_length" value="1.40"/>
   <xacro:property name="base_width"  value="0.95"/>
-  <xacro:property name="base_height" value="0.22"/>
-  <xacro:property name="ground_clearance" value="0.34"/>
+  <xacro:property name="base_height" value="0.20"/>
+
+  <!-- base_link şase merkezidir. Bu değer şasenin yerden yüksekliğini belirler. -->
+  <xacro:property name="ground_clearance" value="0.44"/>
+
   <xacro:property name="wheel_radius" value="0.18"/>
   <xacro:property name="wheel_width"  value="0.12"/>
-  <xacro:property name="wheel_x" value="0.48"/>
-  <xacro:property name="wheel_y" value="0.54"/>
+  <xacro:property name="wheel_x" value="0.49"/>
+  <xacro:property name="wheel_y" value="0.55"/>
+  
+  <xacro:arg name="controllers_file" default="$(find ika_control)/config/rover_controllers.yaml"/>
 
   <xacro:include filename="$(find ika_description)/urdf/base.xacro"/>
   <xacro:include filename="$(find ika_description)/urdf/wheels.xacro"/>
@@ -23,44 +30,63 @@
   <xacro:include filename="$(find ika_description)/urdf/environmental_sensor.xacro"/>
   <xacro:include filename="$(find ika_description)/urdf/laser_pointer.xacro"/>
 
+  <!-- Ana gövde ve üst sensör şasesi -->
   <xacro:ika_base/>
 
-  <xacro:ika_wheel name="front_left"  parent="base_link" x="${wheel_x}"  y="${wheel_y}" z="${wheel_radius}"/>
-  <xacro:ika_wheel name="rear_left"   parent="base_link" x="-${wheel_x}" y="${wheel_y}" z="${wheel_radius}"/>
+  <!-- 4 teker diferansiyel sürüş. Her tekerlek önce bacak taşıyıcıya, sonra hub üzerinden tekerleğe bağlanır. -->
+  <xacro:ika_wheel name="front_left"  parent="base_link" x="${wheel_x}"  y="${wheel_y}"  z="${wheel_radius}"/>
+  <xacro:ika_wheel name="rear_left"   parent="base_link" x="-${wheel_x}" y="${wheel_y}"  z="${wheel_radius}"/>
   <xacro:ika_wheel name="front_right" parent="base_link" x="${wheel_x}"  y="-${wheel_y}" z="${wheel_radius}"/>
   <xacro:ika_wheel name="rear_right"  parent="base_link" x="-${wheel_x}" y="-${wheel_y}" z="${wheel_radius}"/>
 
-  <xacro:front_camera parent="base_link" x="0.73" y="0.00" z="0.55" roll="0" pitch="0" yaw="0"/>
-  <xacro:rear_camera  parent="base_link" x="-0.73" y="0.00" z="0.50" roll="0" pitch="0" yaw="${PI}"/>
-  <xacro:lidar_sensor parent="base_link" x="0.10" y="0.00" z="0.74"/>
-  <xacro:imu_sensor parent="base_link" x="0.00" y="0.00" z="0.46"/>
-  <xacro:gps_sensor parent="base_link" x="-0.20" y="0.00" z="0.75"/>
-  <xacro:laser_range_sensor parent="base_link" x="0.76" y="0.00" z="0.42"/>
-  <xacro:environmental_sensor parent="base_link" x="-0.35" y="0.28" z="0.58"/>
-  <xacro:laser_pointer parent="base_link" x="0.35" y="0.00" z="0.68"/>
+  <!--
+    Tüm sensörler şase/üst platform üzerindedir.
+    Not: aim_camera lazer pan-tilt mekanizmasının ucundadır; pan-tilt mekanizması da sensor_deck_link'e sabitlenmiştir.
+  -->
+  <xacro:front_camera parent="sensor_deck_link" x="0.58" y="0.00" z="0.12" roll="0" pitch="0" yaw="0"/>
+  <xacro:rear_camera  parent="sensor_deck_link" x="-0.58" y="0.00" z="0.12" roll="0" pitch="0" yaw="${PI}"/>
+  <xacro:lidar_sensor parent="sensor_deck_link" x="0.05" y="0.00" z="0.19"/>
+  <xacro:imu_sensor parent="sensor_deck_link" x="0.00" y="0.00" z="0.055"/>
+  <xacro:gps_sensor parent="sensor_deck_link" x="-0.36" y="0.00" z="0.17"/>
+  <xacro:laser_range_sensor parent="sensor_deck_link" x="0.62" y="0.00" z="0.08"/>
+  <xacro:environmental_sensor parent="sensor_deck_link" x="-0.28" y="0.24" z="0.10"/>
+  <xacro:laser_pointer parent="sensor_deck_link" x="0.28" y="0.00" z="0.16"/>
   <xacro:aim_camera parent="tilt_link" x="0.12" y="0.00" z="0.03" roll="0" pitch="0" yaw="0"/>
 
+    <!-- gazebo_ros2_control plugin -->
   <gazebo>
-    <plugin name="ika_diff_drive" filename="libgazebo_ros_diff_drive.so">
-      <ros>
-        <namespace>/</namespace>
-        <remapping>cmd_vel:=cmd_vel</remapping>
-        <remapping>odom:=odom</remapping>
-      </ros>
-      <left_joint>front_left_wheel_joint</left_joint>
-      <left_joint>rear_left_wheel_joint</left_joint>
-      <right_joint>front_right_wheel_joint</right_joint>
-      <right_joint>rear_right_wheel_joint</right_joint>
-      <wheel_separation>1.08</wheel_separation>
-      <wheel_diameter>0.36</wheel_diameter>
-      <max_wheel_torque>80.0</max_wheel_torque>
-      <max_wheel_acceleration>3.0</max_wheel_acceleration>
-      <publish_odom>true</publish_odom>
-      <publish_odom_tf>true</publish_odom_tf>
-      <publish_wheel_tf>true</publish_wheel_tf>
-      <odometry_frame>odom</odometry_frame>
-      <robot_base_frame>base_link</robot_base_frame>
-      <update_rate>50</update_rate>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+      <parameters>$(arg controllers_file)</parameters>
     </plugin>
   </gazebo>
+
+  <ros2_control name="ika_hw" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <joint name="front_left_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="rear_left_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="front_right_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="rear_right_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
 </robot>

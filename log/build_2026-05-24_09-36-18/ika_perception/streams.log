@@ -1,0 +1,33 @@
+[1.979s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/src/ika_perception': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_perception build --build-base /home/sukru/ika_teknofest_aventra_ws/build/ika_perception/build install --record /home/sukru/ika_teknofest_aventra_ws/build/ika_perception/install.log --single-version-externally-managed install_data
+[2.238s] running egg_info
+[2.239s] creating ../../build/ika_perception/ika_perception.egg-info
+[2.239s] writing ../../build/ika_perception/ika_perception.egg-info/PKG-INFO
+[2.239s] writing dependency_links to ../../build/ika_perception/ika_perception.egg-info/dependency_links.txt
+[2.239s] writing entry points to ../../build/ika_perception/ika_perception.egg-info/entry_points.txt
+[2.240s] writing requirements to ../../build/ika_perception/ika_perception.egg-info/requires.txt
+[2.240s] writing top-level names to ../../build/ika_perception/ika_perception.egg-info/top_level.txt
+[2.240s] writing manifest file '../../build/ika_perception/ika_perception.egg-info/SOURCES.txt'
+[2.241s] reading manifest file '../../build/ika_perception/ika_perception.egg-info/SOURCES.txt'
+[2.242s] writing manifest file '../../build/ika_perception/ika_perception.egg-info/SOURCES.txt'
+[2.242s] running build
+[2.242s] running build_py
+[2.242s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_perception/build
+[2.242s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_perception/build/lib
+[2.242s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_perception/build/lib/ika_perception
+[2.242s] copying ika_perception/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/build/ika_perception/build/lib/ika_perception
+[2.242s] running install
+[2.242s] running install_lib
+[2.243s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages/ika_perception
+[2.243s] copying /home/sukru/ika_teknofest_aventra_ws/build/ika_perception/build/lib/ika_perception/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages/ika_perception
+[2.243s] byte-compiling /home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages/ika_perception/__init__.py to __init__.cpython-310.pyc
+[2.244s] running install_data
+[2.244s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_perception/share/ament_index
+[2.244s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_perception/share/ament_index/resource_index
+[2.244s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_perception/share/ament_index/resource_index/packages
+[2.244s] copying resource/ika_perception -> /home/sukru/ika_teknofest_aventra_ws/install/ika_perception/share/ament_index/resource_index/packages
+[2.244s] copying package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_perception/share/ika_perception
+[2.244s] running install_egg_info
+[2.246s] Copying ../../build/ika_perception/ika_perception.egg-info to /home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages/ika_perception-0.0.0-py3.10.egg-info
+[2.247s] running install_scripts
+[2.268s] writing list of installed files to '/home/sukru/ika_teknofest_aventra_ws/build/ika_perception/install.log'
+[2.342s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/src/ika_perception' returned '0': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_perception build --build-base /home/sukru/ika_teknofest_aventra_ws/build/ika_perception/build install --record /home/sukru/ika_teknofest_aventra_ws/build/ika_perception/install.log --single-version-externally-managed install_data

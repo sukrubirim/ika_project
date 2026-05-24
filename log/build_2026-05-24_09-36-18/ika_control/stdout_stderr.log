@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/ika_control/ika_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/ika_control/ika_control.egg-info/dependency_links.txt
+writing entry points to ../../build/ika_control/ika_control.egg-info/entry_points.txt
+writing requirements to ../../build/ika_control/ika_control.egg-info/requires.txt
+writing top-level names to ../../build/ika_control/ika_control.egg-info/top_level.txt
+reading manifest file '../../build/ika_control/ika_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/ika_control/ika_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/spawn_controllers.launch.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ika_control/launch
+copying config/rover_controllers.yaml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_control/share/ika_control/config
+running install_egg_info
+removing '/home/sukru/ika_teknofest_aventra_ws/install/ika_control/lib/python3.10/site-packages/ika_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ika_control/ika_control.egg-info to /home/sukru/ika_teknofest_aventra_ws/install/ika_control/lib/python3.10/site-packages/ika_control-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sukru/ika_teknofest_aventra_ws/build/ika_control/install.log'

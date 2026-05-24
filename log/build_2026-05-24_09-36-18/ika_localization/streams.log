@@ -1,0 +1,33 @@
+[1.979s] Invoking command in '/home/sukru/ika_teknofest_aventra_ws/src/ika_localization': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_localization build --build-base /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/build install --record /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/install.log --single-version-externally-managed install_data
+[2.219s] running egg_info
+[2.219s] creating ../../build/ika_localization/ika_localization.egg-info
+[2.220s] writing ../../build/ika_localization/ika_localization.egg-info/PKG-INFO
+[2.220s] writing dependency_links to ../../build/ika_localization/ika_localization.egg-info/dependency_links.txt
+[2.220s] writing entry points to ../../build/ika_localization/ika_localization.egg-info/entry_points.txt
+[2.220s] writing requirements to ../../build/ika_localization/ika_localization.egg-info/requires.txt
+[2.220s] writing top-level names to ../../build/ika_localization/ika_localization.egg-info/top_level.txt
+[2.220s] writing manifest file '../../build/ika_localization/ika_localization.egg-info/SOURCES.txt'
+[2.222s] reading manifest file '../../build/ika_localization/ika_localization.egg-info/SOURCES.txt'
+[2.223s] writing manifest file '../../build/ika_localization/ika_localization.egg-info/SOURCES.txt'
+[2.223s] running build
+[2.223s] running build_py
+[2.226s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/build
+[2.226s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/build/lib
+[2.226s] creating /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/build/lib/ika_localization
+[2.226s] copying ika_localization/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/build/lib/ika_localization
+[2.226s] running install
+[2.226s] running install_lib
+[2.226s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages/ika_localization
+[2.226s] copying /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/build/lib/ika_localization/__init__.py -> /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages/ika_localization
+[2.227s] byte-compiling /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages/ika_localization/__init__.py to __init__.cpython-310.pyc
+[2.227s] running install_data
+[2.227s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/share/ament_index
+[2.227s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/share/ament_index/resource_index
+[2.227s] creating /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/share/ament_index/resource_index/packages
+[2.227s] copying resource/ika_localization -> /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/share/ament_index/resource_index/packages
+[2.227s] copying package.xml -> /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/share/ika_localization
+[2.227s] running install_egg_info
+[2.227s] Copying ../../build/ika_localization/ika_localization.egg-info to /home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages/ika_localization-0.0.0-py3.10.egg-info
+[2.228s] running install_scripts
+[2.250s] writing list of installed files to '/home/sukru/ika_teknofest_aventra_ws/build/ika_localization/install.log'
+[2.296s] Invoked command in '/home/sukru/ika_teknofest_aventra_ws/src/ika_localization' returned '0': PYTHONPATH=/home/sukru/ika_teknofest_aventra_ws/build/ika_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sukru/ika_teknofest_aventra_ws/install/ika_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ika_localization build --build-base /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/build install --record /home/sukru/ika_teknofest_aventra_ws/build/ika_localization/install.log --single-version-externally-managed install_data
